@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="map.css">
+    
+</head>
+
+
+<body>
+    <div id="map-container" style="position: relative;" class="map-container">
+        <img id="mapImage" src="Campus Navigation.jpeg" alt="College Map">
+        <canvas id="mapCanvas"></canvas>
+        
+    </div>
+
+
+    <div id="text-directions" style="margin-top: 20px; font-size: 16px; color: #333;">
+        
+    </div>
+
+    <button onclick="goBack()">Back</button>
+
+
+    <!-- 🔹 New: Fading overlay message -->
+    <div class="directions-overlay-fade">
+    Directions are shown below the map. Scroll to view them.
+    </div>
+
+    <!-- 🔹 New: Scroll hint -->
+    <div class="scroll-hint">⬇</div>
+
+
+    <script src="map.js"></script>
+</body>
+</html>

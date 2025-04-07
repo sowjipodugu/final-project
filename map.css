@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.map-container {
+    position: relative;
+    display: inline-block;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+#mapImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#mapCanvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #0b82e4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #c9008d;
+    transform: scale(1.1);
+}
+
+#text-directions {
+    background-color: #fed3d7; /* background color */
+    border: 2px solid #dcb37c; /* border color of rectangular container */
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 40px auto; /* Center it horizontally */
+    max-width: 700px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    box-shadow: 0 8px 16px rgba(208, 1, 255, 0.637);/*shadow of rectangular container*/
+    text-align: left;
+}
+
+#text-directions h3 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #0011ff; /*header*/
+    border-bottom: 2px solid #b82361;/*seperation line*/
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+
+/* alignment b/w bullet points*/
+#text-directions li {
+    margin-bottom: 0px;
+    line-height: 1.6;
+    font-size: 16px;
+    position: relative;
+}
+
+
+/* 🔹 New: Overlay fading message */
+.directions-overlay-fade {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.95);
+    color: #fefbfb;
+    padding: 20px 28px;
+    border-radius: 14px;
+    font-size: 16px;
+    font-family: 'Segoe UI', sans-serif;
+    z-index: 9999;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(9, 165, 192, 0.3);
+    outline: 7px solid #8a2be2 ;/* Hot pink outline for contrast */
+    animation: fadeOut 2s ease forwards;
+    max-width: 90vw;
+    width: max-content;
+    line-height: 1.6;
+    box-sizing: border-box;
+    pointer-events: none; /* allows clicking through it */
+}
+
+/* 🔹 New: Arrow scroll hint */
+.scroll-hint {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    color: #222;
+    opacity: 0.8;
+    animation: bounce 8s infinite;
+    z-index: 9998;
+}
+
+/* 🔹 New: Fade out overlay after 5s */
+@keyframes fadeOut {
+    0%   { opacity: 1; }
+    80%  { opacity: 1; }
+    100% { opacity: 0; visibility: hidden; }
+}
+
+/* 🔹 New: Bounce animation for arrow */
+@keyframes bounce {
+    0%, 100% { transform: translate(-50%, 0); }
+    50%      { transform: translate(-50%, -10px); }
+}
+
+
+
+    

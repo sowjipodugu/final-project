@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-weight: bold;
+}
+
+.logo {
+    width: 180px; /* or 200px if you want it bigger */
+    height: 180px;
+    border-radius: 50%; /* circular shape */
+    object-fit: cover; /* ensures it fits nicely inside the circle */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    display: block;
+    margin: 0 auto 20px auto;/* centers horizontally & adds space below */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.075); /* Slight zoom */
+   box-shadow: 0 0 20px #f5f5f5, 0 0 40px #1602f7;
+    cursor: pointer;
+}
+
+.logo-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    background-color: #f487cf;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 6px;
+  
+    /* Positioning */
+    position: absolute;
+    bottom: 120%; /* Show above logo */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+  
+    /* Fade effect */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .logo-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    width: 80%;
+    max-width: 300px; 
+   transition: transform 0.2s ease;
+}
+    
+
+select:hover,select:focus {
+    transform: scale(1.05);
+}
+
+
+button {
+    display: block;
+    margin: 20px auto 0 auto; /* Top margin + center alignment */
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00bcd4;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #03f961;
+    transform: scale(1.1);
+}
+
+
+.modal {
+    display: none; /*Hidden by default*/
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7); /* Dark background*/
+    backdrop-filter: blur(2px);
+}
+
+
+.modal-content {
+    background-color: white;
+    color: #000;
+    margin: 15% auto;
+    padding: 30px 20px;
+    border-radius: 16px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    /*animation: fadeIn 0.3s ease;*/
+}
+
+
+.modal-content button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #00bcd4;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.modal-content button:hover {
+    background-color: #f487cf;
+}
+
+/*@keyframes fadeIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}*/
+

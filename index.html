@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <a href="https://www.rcee.ac.in/" target="_blank" rel="noopener noreferrer">
+            <div class="logo-container">
+                  <img src="https://i.ibb.co/tpdGnyCP/logo.png" alt="College Logo" class="logo">
+                  <span class="tooltip-text">College Official Website</span>
+            </div>
+        </a>
+
+        <h1>Select Source & Destination</h1>
+        <label for="source">Source:</label>
+        <select id="source">
+           <option value="Main Gate">Main Gate</option>
+            <option value="B-Block">B-Block</option>
+            <option value="C-Block">C-Block</option>
+            <option value="A-Block">A-Block</option>
+            <option value="Admission">Adimission</option>
+            <option value="Playground">Playground</option>
+            <option value="Canteen">Canteen</option>
+            <option value="Girls Hostel">Girls Hostel</option>
+            <option value="Boys Hostel">Boys Hostel</option>
+            <option value="BasketBall Ground">BasketBall Ground</option>
+            <option value="Cricket Net">Circket Net</option>
+            <option value="Cricket Ground">Circket Ground</option>
+            <option value="Temple">Temple</option>
+            <option value="Bus parking">Bus parking</option>
+            <option value="Stationary">Stationary</option>
+            <option value="Sports room">Sports room</option>
+            <option value="Auditoruim">Auditoruim</option>
+        </select>
+
+        <label for="destination">Destination:</label>
+        <select id="destination">
+             <option value="Main Gate">Main Gate</option>
+            <option value="B-Block">B-Block</option>
+            <option value="C-Block">C-Block</option>
+            <option value="A-Block">A-Block</option>
+            <option value="Admission">Adimission</option>
+            <option value="Playground">Playground</option>
+            <option value="Canteen">Canteen</option>
+            <option value="Girls Hostel">Girls Hostel</option>
+            <option value="Boys Hostel">Boys Hostel</option>
+            <option value="BasketBall Ground">BasketBall Ground</option>
+            <option value="Cricket Net">Circket Net</option>
+            <option value="Cricket Ground">Circket Ground</option>
+            <option value="Temple">Temple</option>
+            <option value="Bus parking">Bus parking</option>
+            <option value="Stationary">Stationary</option>
+            <option value="Sports room">Sports room</option>
+            <option value="Auditoruim">Auditoruim</option>
+        </select>
+
+        <button onclick="navigate()">Show Path</button>
+    </div>
+
+
+    <div id="customModal" class="modal">
+        <div class="modal-content">
+          <p>You are already at the destination!</p>
+          <button onclick="closeModal()">OK</button>
+        </div>
+      </div>
+      
+
+   <script src="input.js"></script>
+</body>
+</html>
