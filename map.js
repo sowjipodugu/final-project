@@ -93,9 +93,9 @@ const predefinedPaths = {
         { x: 1185, y:266 },   //Auditoruim
     ],
     
-};
 
-const predefinedPaths_B = {
+
+
     "B-Block-A-Block": [
         { x: 1008, y: 711 },  // B-Block
         { x:1008, y: 650 },  // 🔴 Fake location (Hidden waypoint)
@@ -198,8 +198,8 @@ const predefinedPaths_B = {
         { x: 1181, y: 266}   //Auditoruim
     ],
     
-};
-const predefinedPaths_A = {
+
+
     "A-Block-B-Block": [
         { x: 578, y: 643 },  // A-Block
         { x: 1012, y: 647 },  // (Hidden waypoint)
@@ -289,8 +289,7 @@ const predefinedPaths_A = {
         { x: 1184, y: 646  },  // Hidden waypoint
         { x: 1184, y: 278 }   //Auditoruim
     ],
-};
-const predefinedPaths_C = {
+
     "C-Block-B-Block": [
         { x:607 , y: 281 },  // C-Block
         { x: 568, y: 311  },  // 🔴 Fake location (Hidden waypoint)
@@ -454,9 +453,7 @@ const predefinedPaths_C = {
         { x: 1184, y:645 },  // Hidden waypoint
         { x: 1186, y:272 }   //Auditoruim
     ],
-};
 
-const predefinedPaths_Admission = {
     "Admission-B-Block": [
         { x:259 , y: 456 },  //  Admission
         { x:288 , y: 477  },  // 🔴 Fake location (Hidden waypoint)
@@ -565,9 +562,7 @@ const predefinedPaths_Admission = {
         { x:1183 , y:644 },  // Hidden waypoint
         { x:1182 , y:273 }   //Auditoruim
     ],
-};
 
-const predefinedPaths_Canteen = {
     "Canteen-B-Block": [
         { x: 829, y:428  },  // Canteen
         { x:848 , y:433  },  // (Hidden waypoint)
@@ -686,9 +681,7 @@ const predefinedPaths_Canteen = {
         { x:1186 , y:642 },  // Hidden waypoint
         { x: 1186, y:268 }   //Auditoruim
     ],
-};
 
-const predefinedPaths_Playground = {
     "Playground-B-Block": [
         { x:1021 , y:624  },  // Playground
         { x:1021 , y:708 }   // B-Block
@@ -781,8 +774,7 @@ const predefinedPaths_Playground = {
         { x:287 , y:448 },  // Hidden waypoint
         { x:262 , y:449 }   //Adimssion
     ],
-}
-const predefinedPaths_GirlsHostel= {
+
     "Girls Hostel-B-Block": [
         { x: 294, y: 912 },  //  Girls Hostel
         { x: 294, y: 651 },  //Hidden waypoint
@@ -881,9 +873,7 @@ const predefinedPaths_GirlsHostel= {
         { x: 294, y: 433 },  // Hidden waypoint
         { x: 268, y: 437  }   //Admission
     ],
-};
 
-const predefinedPaths_BoysHostel= {
     "Boys Hostel-B-Block": [
         { x: 1301, y: 667},  //  Adimission
         { x: 1300, y: 647  },  // 🔴 Fake location (Hidden waypoint)
@@ -987,9 +977,7 @@ const predefinedPaths_BoysHostel= {
         { x:288 , y:445 },  // Hidden waypoint
         { x:258 , y:443 }   //Admission
     ],
-};
 
-const predefinedPaths_BasketBallGround= {
     "BasketBall Ground-B-Block": [
         { x:991 , y:499  },  //  BasketBall Ground
         { x:990 , y:715 }   // B-Block
@@ -1090,9 +1078,7 @@ const predefinedPaths_BasketBallGround= {
         { x:993 , y:225  },  // BasketBall Ground
         { x:1162 , y:215 }   //Auditoruim
     ],
-};
 
-const predefinedPaths_CricketNet= {
     "Cricket Net-B-Block": [
         { x:1383 , y:109  },  // Cricket Net 
         { x:1395 , y:109  },  // Hidden waypoint
@@ -1201,9 +1187,7 @@ const predefinedPaths_CricketNet= {
         { x:924 , y:114  },  // Hidden waypoint
         { x:924 , y:206 }   //BasketBall Ground
     ],
-};
 
-const predefinedPaths_CricketGround= {
     "Cricket Ground-B-Block": [
         { x:1441, y:615  },  //  Cricket Ground
         { x:1441 , y:644  },  // 🔴 Fake location (Hidden waypoint)
@@ -1304,9 +1288,7 @@ const predefinedPaths_CricketGround= {
         { x:950 , y:641 },  // Hidden waypoint
         { x:951 , y:497 }   //BasketBall Ground
     ],
-};
 
-const predefinedPaths_Temple= {
     "Temple-B-Block": [
         { x:595 , y:427  },  //  Temple
         { x:754 , y:427 },  // Hidden waypoint
@@ -1436,9 +1418,7 @@ const predefinedPaths_Temple= {
         { x:837 , y:335 },  // Hidden waypoint
         { x:883 , y:329 }  // BasketBall Ground
     ]
-};
 
-const predefinedPaths_Busparking= {
     "Bus parking-B-Block": [
         { x:63 , y:799  },  //  Bus parking
         { x:63 , y:653  },  // Hidden waypoint
@@ -1543,9 +1523,7 @@ const predefinedPaths_Busparking= {
         { x:959, y:644 },  // Hidden waypoint
         { x:959 , y:497 }   //BasketBall Ground
     ],
-};
 
-const predefinedPaths_Stationary= {
     "Stationary-B-Block": [
         { x:779 , y: 733 },  //  Stationary
         { x:779 , y: 649 },  // Hidden waypoint
@@ -1654,9 +1632,7 @@ const predefinedPaths_Stationary= {
         { x: 855, y:430 },  // Hidden waypoint
         { x: 827, y:421 }  //BasketBall Ground
     ]
-};
 
-const predefinedPaths_Sportsroom= {
     "Sports room-B-Block": [
         { x:1301 , y:582  },  //  Sports room
         { x:1301, y:644 },  // Hidden waypoint
@@ -1759,9 +1735,7 @@ const predefinedPaths_Sportsroom= {
         { x:57 , y:650},  // Hidden waypoint
         { x:61 , y:790 }   //BasketBall Ground
     ],
-};
 
-const predefinedPaths_Auditoruim= {
     "Auditoruim-B-Block": [
         { x:1186 , y:265  },  // Auditoruim
         { x:1189 , y:636  },  // 🔴 Fake location (Hidden waypoint)
