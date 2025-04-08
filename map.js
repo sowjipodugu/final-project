@@ -1908,8 +1908,8 @@ generateSmartDirections(waypoints); //Calling generateSmartDirection function
 // For marking source and the destination point
 function drawDot(point, color = "red", radius = 6.5/*circle size*/) {
 const ctx = canvas.getContext("2d");
-const x = (point.x / 1445) * canvas.width;
-const y = (point.y / 853) * canvas.height;
+const x = (point.x / 1500) * canvas.width;
+const y = (point.y / 1000) * canvas.height;
 
 ctx.save(); // Save current state of the context
 ctx.beginPath();
