@@ -4,93 +4,93 @@
 //?source=Main-Gate&destination=Canteen
 
 const predefinedPaths = {
-    "Main Gate-B-Block": [
-        { x: 95, y: 654},  // Main Gate
+    "Main-Gate-B-Block": [
+        { x: 95, y: 654},  // Main-Gate
        // { x: 300, y: 180 },  // 🔴 Fake location (Hidden waypoint)
         { x: 1018, y: 654 },  // 🔴 Fake location (Hidden waypoint)
         { x: 1011, y: 709 }   //B-Block 
     ],
-    "Main Gate-C-Block": [
-        { x: 152, y: 655 },  // 📍 Main Gate
+    "Main-Gate-C-Block": [
+        { x: 152, y: 655 },  // 📍 Main-Gate
         { x: 283, y: 652},  // 🔴 Fake location (Hidden waypoint)
          { x: 287, y: 413 },  // 🔴 Fake location (Hidden waypoint)
         { x: 607, y: 283 }   // 📍 C-Block
     ],
-    "Main Gate-A-Block": [
-        { x: 152, y: 655 },  // Main Gate
+    "Main-Gate-A-Block": [
+        { x: 152, y: 655 },  // Main-Gate
         { x: 577, y: 648 },  // 🔴 Fake location (Hidden waypoint)
         { x: 579, y: 690 }   // A-Block
     ],
-    "Main Gate-Admission": [
-        { x: 152, y: 655 },  // Main Gate
+    "Main-Gate-Admission-Office": [
+        { x: 152, y: 655 },  // Main-Gate
         { x: 283, y: 652},  // 🔴 Fake location (Hidden waypoint)
         { x: 288, y: 424},  // 🔴 Fake location (Hidden waypoint)
-        { x: 258, y: 440}   //Admission 
+        { x: 258, y: 440}   //Admission-Office 
     ],
-    "Main Gate-Boys Hostel": [
-        { x: 152, y: 655 },  // Main Gate
+    "Main-Gate-Boys-Hostel": [
+        { x: 152, y: 655 },  // Main-Gate
         { x: 1311, y: 647},  // 🔴 Fake location (Hidden waypoint)
-        { x: 1312, y: 675}   // Boys Hostel
+        { x: 1312, y: 675}   // Boys-Hostel
     ],
-    "Main Gate-Girls Hostel": [
-        { x: 152, y: 655 },  // Main Gate
+    "Main-Gate-Girls-Hostel": [
+        { x: 152, y: 655 },  // Main-Gate
         { x: 289, y: 654},  // 🔴 Fake location (Hidden waypoint)
-        { x: 294, y: 916}   // Girls Hostel
+        { x: 294, y: 916}   // Girls-Hostel
     ],
-    "Main Gate-Canteen": [
-        { x: 152,y:655},  // Main Gate
+    "Main-Gate-Canteen": [
+        { x: 152,y:655},  // Main-Gate
         { x: 853, y: 646 },  // 🔴 Fake location (Hidden waypoint)
         { x: 853, y: 435},  // 🔴 Fake location (Hidden waypoint)
         { x: 826, y: 431}   // Canteen
     ],
-    "Main Gate-Playground": [
-        { x: 152, y: 655 },  // Main Gate
+    "Main-Gate-Playground": [
+        { x: 152, y: 655 },  // Main-Gate
         { x: 1016, y: 646},  // 🔴 Fake location (Hidden waypoint)
         { x: 1016, y: 627}   // Playground
     ],
-    "Main Gate-BasketBall Ground": [
-        { x: 152, y: 655 },  // Main Gate
+    "Main-Gate-Basketball-Ground": [
+        { x: 152, y: 655 },  // Main-Gate
         { x: 853, y: 646},  // 🔴 Fake location (Hidden waypoint)
         { x: 853, y: 314},  // 🔴 Fake location (Hidden waypoint)
-        { x: 883, y: 310}   // BasketBall Ground
+        { x: 883, y: 310}   // Basketball-Ground
     ], 
-    "Main Gate-Cricket Net": [
-        { x: 152, y: 655 },  // Main Gate
+    "Main-Gate-Cricket-Net": [
+        { x: 152, y: 655 },  // Main-Gate
         { x: 854, y: 639},  // 🔴 Fake location (Hidden waypoint)
         { x: 851, y: 50},  // 🔴 Fake location (Hidden waypoint)
         { x: 1163, y: 37},  // 🔴 Fake location (Hidden waypoint)
         { x: 1175, y: 108},  // 🔴 Fake location (Hidden waypoint)
         { x: 1215,y:105}      //Circket Ne
     ],
-     "Main Gate-Cricket Ground": [
-        { x: 152, y: 655 },  // Main Gate
+     "Main-Gate-Cricket-Ground": [
+        { x: 152, y: 655 },  // Main-Gate
         { x: 1442, y: 648},  // 🔴 Fake location (Hidden waypoint)
-        { x: 1442, y: 613}   // Circket Ground
+        { x: 1442, y: 613}   // Cricket-Ground
     ],
-    "Main Gate-Stationary": [
-        { x: 151, y: 653 },  // Main Gate 
+    "Main-Gate-Stationary": [
+        { x: 151, y: 653 },  // Main-Gate 
         {x: 773, y: 652},  // 🔴 Fake location (Hidden waypoint)
         { x: 777, y: 738}   // Stationary and juice shop
     ],
-    "Main Gate-Temple": [
-        { x: 150, y: 654 },  // Main Gate
+    "Main-Gate-Temple": [
+        { x: 150, y: 654 },  // Main-Gate
         { x: 578, y: 647},  // 🔴 Fake location (Hidden waypoint)
         { x: 578, y: 450}   // Gate-Temple
     ],
-    "Main Gate-Bus parking": [
-        { x: 144, y: 654 },  // Main Gate
+    "Main-Gate-Bus-Parking": [
+        { x: 144, y: 654 },  // Main-Gate
         { x: 61, y: 659},  // 🔴 Fake location (Hidden waypoint)
-        { x: 61, y: 802}   //Bus parking
+        { x: 61, y: 802}   //Bus-Parking
     ],
-    "Main Gate-Sports room": [
-        { x: 152, y: 654 },  // Main Gate
+    "Main-Gate-Sports-Room": [
+        { x: 152, y: 654 },  // Main-Gate
         { x: 1294, y: 645},  // 🔴 Fake location (Hidden waypoint)
-        { x: 1294, y: 583}   //Sport room
+        { x: 1294, y: 583}   //Sports-Room
     ],
-    "Main Gate-Auditoruim": [
-        { x: 152, y: 654},  //Main Gate
+    "Main-Gate-Auditorium": [
+        { x: 152, y: 654},  //Main-Gate
         { x: 1180, y: 643},  // Hidden waypoint
-        { x: 1185, y:266 },   //Auditoruim
+        { x: 1185, y:266 },   //Auditorium
     ],
     
 
@@ -114,29 +114,29 @@ const predefinedPaths = {
         { x: 570, y: 305 },  // 🔴 Fake location (Hidden waypoint)
         { x: 617, y: 287 }, // C-Block  
     ],
-    "B-Block-Main Gate": [
+    "B-Block-Main-Gate": [
         { x: 1008, y: 711 },  // B-Block
         { x: 1008, y: 650 },  // Hidden waypoint
-        { x: 151, y: 649 }   // Main Gate
+        { x: 151, y: 649 }   // Main-Gate
     ],
-    "B-Block-Admission": [
+    "B-Block-Admission-Office": [
         { x: 1008, y: 711 },  // B-Block
         { x: 1008, y: 650},  // Hidden waypoint
         { x: 289 ,y: 651},  // Hidden waypoint
         { x: 289 ,y: 433},  // Hidden waypoint
-        { x: 263, y: 438},  // Admission
+        { x: 263, y: 438},  // Admission-Office
     ],
-    "B-Block-Boys Hostel": [
+    "B-Block-Boys-Hostel": [
         { x: 1008, y: 711 },  // B-Block
         { x: 1008, y: 650},  // Hidden waypoint
         { x: 1289, y: 647 },  // Hidden waypoint
-        { x: 1289, y: 673}   // Boys Hostel
+        { x: 1289, y: 673}   // Boys-Hostel
     ],
-    "B-Block-Girls Hostel": [
+    "B-Block-Girls-Hostel": [
         { x: 1008, y: 711},  // B-Block
         { x: 1008, y: 650 },  // Hidden waypoint
         { x: 289, y: 650 },  // Hidden waypoint
-        { x: 289, y: 916 }   // Girls Hostel
+        { x: 289, y: 916 }   // Girls-Hostel
     ],
     "B-Block-Canteen": [
         { x: 1008, y: 711 },  // B-Block
@@ -149,23 +149,23 @@ const predefinedPaths = {
         { x: 1008, y: 711},  // B-Block
         { x: 1008, y: 630 }   // Playground
     ],
-    "B-Block-BasketBall Ground": [
+    "B-Block-Basketball-Ground": [
         { x: 982, y: 716 },  // B-Block
-        { x: 977, y: 499 }   // BasketBall Ground
+        { x: 977, y: 499 }   // Basketball-Ground
     ], 
-    "B-Block-Cricket Net": [
+    "B-Block-Cricket-Net": [
         { x: 1008, y: 711 },  // B-Block
         { x: 1008, y: 650 },  // Hidden waypoint
         { x: 853,  y: 644 },  // Hidden waypoint
         { x: 850,  y: 40 },  // Hidden waypoint
         { x: 1241, y: 48},  // Hidden waypoint
-        { x: 1241, y: 85}   // Cricket Net
+        { x: 1241, y: 85}   // Cricket-Net
     ],
-    "B-Block-Cricket Ground": [
+    "B-Block-Cricket-Ground": [
         { x: 1008, y: 704 },  // B-Block
         { x: 1014, y: 653},  // Hidden waypoint
         { x: 1432, y: 639 },  // Hidden waypoint
-        { x: 1432, y: 613}   // Cricket Ground
+        { x: 1432, y: 613}   // Cricket-Ground
     ],
     "B-Block-Stationary": [
         { x: 1008, y: 711 },  // B-Block
@@ -179,23 +179,23 @@ const predefinedPaths = {
         { x: 575, y: 642 },  // Hidden waypoint
         { x: 575, y: 445}   //Temple
     ],
-    "B-Block-Bus parking": [
+    "B-Block-Bus-Parking": [
         { x: 1008, y: 711 },  // B-Block
         { x: 1008, y: 650 },  // Hidden waypoint
         { x: 1439, y: 644 },  // Hidden waypoint
-        { x: 1439, y: 618}   //Bus parking
+        { x: 1439, y: 618}   //Bus-Parking
     ],
-    "B-Block-Sports room": [
+    "B-Block-Sports-Room": [
         { x: 1008, y: 711 },  // B-Block
         { x: 1008, y: 650 },  // Hidden waypoint
         { x: 1303, y: 645},  // Hidden waypoint
-        { x: 1303, y: 581}   //Sports room
+        { x: 1303, y: 581}   //Sports-Room
     ],
-    "B-Block-Auditoruim": [
+    "B-Block-Auditorium": [
         { x: 1008, y: 711 },  // B-Block
         { x: 1008, y: 650 },  // Hidden waypoint
         { x: 1181, y: 644},  // Hidden waypoint
-        { x: 1181, y: 266}   //Auditoruim
+        { x: 1181, y: 266}   //Auditorium
     ],
     
 
@@ -215,25 +215,25 @@ const predefinedPaths = {
         { x: 611, y: 279 } // C-Block
         
     ],
-    "A-Block-Main Gate": [
+    "A-Block-Main-Gate": [
         { x: 578, y: 643 },  // A-Block
-        { x: 152, y: 649 }   // Main Gate
+        { x: 152, y: 649 }   // Main-Gate
     ],
-    "A-Block-Admission": [
+    "A-Block-Admission-Office": [
         { x: 578, y: 643  },  // A-Block
         { x: 285, y: 650 },  // Hidden waypoint
         { x: 285, y: 428 },  // Hidden waypoint
-        { x: 266, y: 443 }  // Admission
+        { x: 266, y: 443 }  // Admission-Office
     ],
-    "A-Block-Boys Hostel": [
+    "A-Block-Boys-Hostel": [
         { x:578 , y:643  },  //A-Block
         { x:1318, y:647 },  // Hidden waypoint
-        { x:1318, y:676 }   // Boys Hostel
+        { x:1318, y:676 }   // Boys-Hostel
     ],
-    "A-Block-Girls Hostel": [
+    "A-Block-Girls-Hostel": [
         { x: 578, y:643 },  //A-Block
         { x: 285, y:650  },  // Hidden waypoint
-        { x:295 , y:917 }  // Girls Hostel
+        { x:295 , y:917 }  // Girls-Hostel
     ],
     "A-Block-Canteen": [
         { x: 578, y: 643 },  //A-Block
@@ -247,23 +247,23 @@ const predefinedPaths = {
         { x: 852, y: 598 },  // Hidden waypoint
         { x: 852, y: 604 }   // Playground
     ],
-    "A-Block-BasketBall Ground": [
+    "A-Block-Basketball-Ground": [
         { x: 578, y: 643 },  // A-Block
         { x: 855, y: 649 },  // Hidden waypoint
         { x: 855, y: 427  },  // Hidden waypoint
-        { x: 855, y :425  }   // BasketBall Ground
+        { x: 855, y :425  }   // Basketball-Ground
     ], 
-    "A-Block-Cricket Net": [
+    "A-Block-Cricket-Net": [
         { x: 580, y: 643 },  // A-Block
         { x: 856, y: 640 },  // Hidden waypoint
         { x: 852, y: 49 },  // Hidden waypoint
         { x: 1277, y: 37  },  // Hidden waypoint
-        { x: 1287, y: 72 }   // Cricket Net
+        { x: 1287, y: 72 }   // Cricket-Net
     ],
-    "A-Block-Cricket Ground": [
+    "A-Block-Cricket-Ground": [
         { x: 578, y: 643  },  //A-Block
         { x: 1444, y: 647 },  // Hidden waypoint
-        { x: 1444, y: 617}   // Cricket Ground
+        { x: 1444, y: 617}   // Cricket-Ground
     ],
     "A-Block-Stationary": [
         { x: 578, y: 643 },  // A-Block
@@ -274,20 +274,20 @@ const predefinedPaths = {
         { x: 578 , y: 643  },  //A-Block
         { x: 575, y: 437}   //Temple
     ],
-    "A-Block-Bus parking": [
+    "A-Block-Bus-Parking": [
         { x: 578, y: 643 },  // A-Block
         { x: 61, y: 657 },  // Hidden waypoint
-        { x: 61, y: 795}   //Bus parking
+        { x: 61, y: 795}   //Bus-Parking
     ],
-    "A-Block-Sports room": [
+    "A-Block-Sports-Room": [
         { x: 578, y: 643 },  // A-Block
         { x: 1295, y: 652  },  // Hidden waypoint
-        { x: 1295, y: 623}   //Sports room
+        { x: 1295, y: 623}   //Sports-Room
     ],
-    "A-Block-Auditoruim": [
+    "A-Block-Auditorium": [
         { x: 578 , y: 643 },  // A-Block
         { x: 1184, y: 646  },  // Hidden waypoint
-        { x: 1184, y: 278 }   //Auditoruim
+        { x: 1184, y: 278 }   //Auditorium
     ],
 
     "C-Block-B-Block": [
@@ -314,17 +314,17 @@ const predefinedPaths = {
         { x: 578, y:643 } // A-Block
         
     ],
-    "C-Block-Main Gate": [
+    "C-Block-Main-Gate": [
         { x:607, y:281 },  // C-Block
         { x:298, y:406 },  // Hidden waypoint
         { x:298, y:653 },  // Hidden waypoint
-        { x:152, y:655  }   // Main Gate
+        { x:152, y:655  }   // Main-Gate
     ],
-    "C-Block-Admission": [
+    "C-Block-Admission-Office": [
         { x:607, y:281 },  // C-Block
-        { x: 257, y:434 }  // Admission
+        { x: 257, y:434 }  // Admission-Office
     ],
-    "C-Block-Boys Hostel": [
+    "C-Block-Boys-Hostel": [
         { x: 607 , y: 281 },  //C-Block
         { x: 568, y: 311  },  // 🔴 Fake location (Hidden waypoint)
         { x: 568, y: 399 },  // 🔴 Fake location (Hidden waypoint)
@@ -335,12 +335,12 @@ const predefinedPaths = {
         { x: 854, y: 509 },  // 🔴 Fake location (Hidden waypoint)
         { x: 852, y: 647 },  // 🔴 Fake location (Hidden waypoint)
         { x: 1284, y:649 },  // Hidden waypoint
-        { x:1284 , y:677 }   // Boys Hostel
+        { x:1284 , y:677 }   // Boys-Hostel
     ],
-    "C-Block-Girls Hostel": [
+    "C-Block-Girls-Hostel": [
         { x:607, y:281},  //C-Block
         { x:298, y:406 },  // Hidden waypoint
-        { x:298, y:911 }  // Girls Hostel
+        { x:298, y:911 }  // Girls-Hostel
     ],
     "C-Block-Canteen": [
         { x:607 , y: 281 },  // C-Block
@@ -365,7 +365,7 @@ const predefinedPaths = {
         { x: 854, y: 509 },  // 🔴 Fake location (Hidden waypoint)
         { x: 890, y: 512 }   // Playground
     ],
-    "C-Block-BasketBall Ground": [
+    "C-Block-Basketball-Ground": [
         { x: 607 , y: 281 },  // C-Block
         { x: 568, y: 311  },  // 🔴 Fake location (Hidden waypoint)
         { x: 568, y: 399 },  // 🔴 Fake location (Hidden waypoint)
@@ -374,9 +374,9 @@ const predefinedPaths = {
         { x: 752, y: 425  },  // 🔴 Fake location (Hidden waypoint)
         { x: 752, y:507  },  // 🔴 Fake location (Hidden waypoint)
         { x: 854 , y: 509 },  // Hidden waypoint
-        { x: 912, y: 489 }   // BasketBall Ground
+        { x: 912, y: 489 }   // Basketball-Ground
     ], 
-    "C-Block-Cricket Net": [
+    "C-Block-Cricket-Net": [
         { x:609, y:283},  // C-Block
         { x:573, y:315  },  // Hidden waypoint
         { x:571, y:397  },  // Hidden waypoint
@@ -388,9 +388,9 @@ const predefinedPaths = {
         { x:855, y:50},  // Hidden waypoint
         { x:1170, y:38},  // Hidden waypoint
         { x:1170, y:109},  // Hidden waypoint
-        { x:1214 , y:109 }   // Cricket Net
+        { x:1214 , y:109 }   // Cricket-Net
     ],
-    "C-Block-Cricket Ground": [
+    "C-Block-Cricket-Ground": [
         { x: 607 , y: 281 },  // C-Block
         { x: 568, y: 311  },  // 🔴 Fake location (Hidden waypoint)
         { x: 568, y: 399 },  // 🔴 Fake location (Hidden waypoint)
@@ -401,7 +401,7 @@ const predefinedPaths = {
         { x: 854, y: 509 },  // 🔴 Fake location (Hidden waypoint)
         { x: 852, y: 647 },  // 🔴 Fake location (Hidden waypoint
         { x: 1439, y:648  },  // Hidden waypoint
-        { x: 1439, y: 607}   // Cricket Ground
+        { x: 1439, y: 607}   // Cricket-Ground
     ],
     "C-Block-Stationary": [
         { x:607 , y: 281 },  // C-Block
@@ -418,15 +418,15 @@ const predefinedPaths = {
         { x: 572, y:303 },  // Hidden waypoint
         { x:572, y:404}   //Temple
     ],
-    "C-Block-Bus parking": [
+    "C-Block-Bus-Parking": [
         { x:607 , y:281 },  //C-Block
         { x:298 , y:406  },  // Hidden waypoint
         { x:298 , y:653 },  // Hidden waypoint
         { x: 63, y: 653},  //  Hidden waypoint
-        { x: 61, y: 795},  // Bus parking
+        { x: 61, y: 795},  // Bus-Parking
         
     ],
-    "C-Block-Sports room": [
+    "C-Block-Sports-Room": [
         { x:607 , y: 281 },  // C-Block
         { x: 568, y: 311  },  // 🔴 Fake location (Hidden waypoint)
         { x: 568, y: 399 },  // 🔴 Fake location (Hidden waypoint)
@@ -437,10 +437,10 @@ const predefinedPaths = {
         { x: 854, y: 509 },  // 🔴 Fake location (Hidden waypoint)
         { x: 852, y: 647 },  // 🔴 Fake location (Hidden waypoint)
         { x: 1287, y:648 },  // Hidden waypoint
-        { x: 1287, y:582}   //Sports room
+        { x: 1287, y:582}   //Sports-Room
     ],
     
-    "C-Block-Auditoruim": [
+    "C-Block-Auditorium": [
         { x:607 , y: 281 },  // C-Block
         { x: 568, y: 311  },  // 🔴 Fake location (Hidden waypoint)
         { x: 568, y: 399 },  // 🔴 Fake location (Hidden waypoint)
@@ -451,116 +451,116 @@ const predefinedPaths = {
         { x: 854, y: 509 },  // 🔴 Fake location (Hidden waypoint)
         { x: 852, y: 647 },  // 🔴 Fake location (Hidden waypoint)
         { x: 1184, y:645 },  // Hidden waypoint
-        { x: 1186, y:272 }   //Auditoruim
+        { x: 1186, y:272 }   //Auditorium
     ],
 
-    "Admission-B-Block": [
-        { x:259 , y: 456 },  //  Admission
+    "Admission-Office-B-Block": [
+        { x:259 , y: 456 },  //  Admission-Office
         { x:288 , y: 477  },  // 🔴 Fake location (Hidden waypoint)
         { x:288 , y: 652 },  // 🔴 Fake location (Hidden waypoint)
         { x:1011, y:645 },  // 🔴 Fake location (Hidden waypoint)
         { x:1011 , y:705 }   // B-Block
     ],
-    "Admission-C-Block": [
-        { x: 256, y:441 },  // Admission
+    "Admission-Office-C-Block": [
+        { x: 256, y:441 },  // Admission-Office
         { x: 608, y:278 } // C-Block
         
     ],
-    "Admission-Main Gate": [
-        { x:256, y:438 },  // Admission
+    "Admission-Office-Main-Gate": [
+        { x:256, y:438 },  // Admission-Office
         { x:284, y:439},  // Hidden waypoint
         { x:284, y:652 },  // Hidden waypoint
-        { x:149, y:653  }   // Main Gate
+        { x:149, y:653  }   // Main-Gate
     ],
-    "Admission-A-Block": [
-        { x:257 , y:439  },  // Admission
+    "Admission-Office-A-Block": [
+        { x:257 , y:439  },  // Admission-Office
         { x:284 , y:439},  // Hidden waypoint
         { x:284 ,y: 652},  // Hidden waypoint
         { x:576, y:644}  // A-Block
     ],
-    "Admission-Boys Hostel": [
-        { x:259, y:439  },  //Admission
+    "Admission-Office-Boys-Hostel": [
+        { x:259, y:439  },  //Admission-Office
         { x:288 , y:477 },  // Hidden waypoint
         { x: 288, y:652 },  // Hidden waypoint
         { x: 1318, y:640 },  // Hidden waypoint
-        { x:1318 , y:674 }   // Boys Hostel
+        { x:1318 , y:674 }   // Boys-Hostel
     ],
-    "Admission-Girls Hostel": [
-        { x: 257, y:456 },  //Admission
+    "Admission-Office-Girls-Hostel": [
+        { x: 257, y:456 },  //Admission-Office
         { x:284, y:439  },  // Hidden waypoint
-        { x:294, y:931 }  // Girls Hostel
+        { x:294, y:931 }  // Girls-Hostel
     ],
-    "Admission-Canteen": [
-        { x:257 , y:439 },  //Admission
+    "Admission-Office-Canteen": [
+        { x:257 , y:439 },  //Admission-Office
         { x:288 , y:477 },  // Hidden waypoint
         { x:288, y:652 },  // Hidden waypoint
         { x:856 , y:645 },  // Hidden waypoint
         { x:851 , y:434},  // Hidden waypoint
         { x: 829, y:434 }  // Canteen  
     ],
-    "Admission-Playground": [
-        { x: 259, y:456 },  //Admission
+    "Admission-Office-Playground": [
+        { x: 259, y:456 },  //Admission-Office
         { x:288 , y:477 },  // Hidden waypoint
         { x:288, y:652 },  // Hidden waypoint
         { x: 1012, y:652  },  // Hidden waypoint
         { x: 1012, y:616  }   // Playground
     ],
-    "Admission-BasketBall Ground": [
-        { x: 259, y:456  },  // Admission
+    "Admission-Office-Basketball-Ground": [
+        { x: 259, y:456  },  // Admission-Office
         { x:288 , y:477 },  // Hidden waypoint
         { x:288, y:652 },  // Hidden waypoint
         { x:856 , y:645  },  // Hidden waypoint
         { x:851 ,  y:434  },  // Hidden waypoint
-        { x:882 , y: 425 }   // BasketBall Ground
+        { x:882 , y: 425 }   // Basketball-Ground
     ], 
-    "Admission-Cricket Net": [
-        { x: 272, y:445 },  // Admission
+    "Admission-Office-Cricket-Net": [
+        { x: 272, y:445 },  // Admission-Office
         { x:291, y:43 },  // Hidden waypoint
         { x:291, y:45 },  // Hidden waypoint
         { x:1170 , y:42 },  // Hidden waypoint
         { x:1170, y:100},  // Hidden waypoint
        
         { x: 1171, y:95 },  // Hidden waypoint
-        { x:1199 , y:101 }   // Cricket Net
+        { x:1199 , y:101 }   // Cricket-Net
     ],
-    "Admission-Cricket Ground": [
-        { x: 259, y:456  },  // Admission
+    "Admission-Office-Cricket-Ground": [
+        { x: 259, y:456  },  // Admission-Office
         { x:288 , y:477 },  // Hidden waypoint
         { x:288, y:652 },  // Hidden waypoint
         { x: 1439, y:650  },  // Hidden waypoint
-        { x:1439 , y:618}   // Cricket Ground
+        { x:1439 , y:618}   // Cricket-Ground
     ],
-    "Admission-Stationary": [
-        { x: 259, y:456  },  // Admission
+    "Admission-Office-Stationary": [
+        { x: 259, y:456  },  // Admission-Office
         { x:288 , y:477 },  // Hidden waypoint
         { x:288, y:652 },  // Hidden waypoint
         { x:773 , y:656  },  // Hidden waypoint
         { x:777 , y:726 }   // Stationary
     ],
-    "Admission-Temple": [
-        { x: 270, y: 434 },  //Admission
+    "Admission-Office-Temple": [
+        { x: 270, y: 434 },  //Admission-Office
         { x: 563, y:426}   //Temple
     ],
-    "Admission-Bus parking": [
-        { x:257 , y:439},  // Admission
+    "Admission-Office-Bus-Parking": [
+        { x:257 , y:439},  // Admission-Office
         { x:284 , y:439  },  // Hidden waypoint
         { x:284, y:652 },  // Hidden waypoint
         { x:60 , y:649},  // Hidden waypoint
-        { x:60 , y:798 }   //Bus parking
+        { x:60 , y:798 }   //Bus-Parking
     ],
-    "Admission-Sports room": [
-        { x: 259, y:456  },  // Admission
+    "Admission-Office-Sports-Room": [
+        { x: 259, y:456  },  // Admission-Office
         { x:288 , y:477 },  // Hidden waypoint
         { x:288, y:652 },  // Hidden waypoint
         { x:1288 , y:642 },  // Hidden waypoint
-        { x: 1291, y:584}   //Sports room
+        { x: 1291, y:584}   //Sports-Room
     ],
-    "Admission-Auditoruim": [
-        { x:259 , y:456  },  // Admission
+    "Admission-Office-Auditorium": [
+        { x:259 , y:456  },  // Admission-Office
         { x:288 , y:477  },  // Hidden waypoint
         { x:288 , y:652 },  // Hidden waypoint
         { x:1183 , y:644 },  // Hidden waypoint
-        { x:1182 , y:273 }   //Auditoruim
+        { x:1182 , y:273 }   //Auditorium
     ],
 
     "Canteen-B-Block": [
@@ -588,35 +588,35 @@ const predefinedPaths = {
         { x:856 ,y:645 },  // Hidden waypoint
         { x: 581, y:650 }   //A-Block
     ],
-    "Canteen-Main Gate": [
+    "Canteen-Main-Gate": [
         { x:829 , y:428 },  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x:856 ,y:645 },  // Hidden waypoint
         { x: 779,y:652 },  // Hidden waypoint
-        { x: 151, y:653  }   // Main Gate
+        { x: 151, y:653  }   // Main-Gate
     ],
-    "Canteen-Admission": [
+    "Canteen-Admission-Office": [
         { x:829 , y:428 },  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x:856 ,y:645 },  // Hidden waypoint
         { x:288 ,y:648 },  // Hidden waypoint
         { x: 283,y:454 },  // Hidden waypoint
-        { x: 252, y:450 }  // Admission
+        { x: 252, y:450 }  // Admission-Office
     ],
-    "Canteen-Boys Hostel": [
+    "Canteen-Boys-Hostel": [
         { x:829 , y:428 },  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x:856 ,y:645 },  // Hidden waypoint
         { x: 1310, y:648 },  // Hidden waypoint
-        { x: 1310, y:677 }   // Boys Hostel
+        { x: 1310, y:677 }   // Boys-Hostel
     ],
-    "Canteen-Girls Hostel": [
+    "Canteen-Girls-Hostel": [
         { x:829 , y:428 },  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x:856 ,y:645 },  // Hidden waypoint
         { x: 779,y:652 },  // Hidden waypoint
         { x:288 , y:648  },  // Hidden waypoint
-        { x: 285, y:913 }  // Girls Hostel
+        { x: 285, y:913 }  // Girls-Hostel
     ],
     
     "Canteen-Playground": [
@@ -625,24 +625,24 @@ const predefinedPaths = {
         { x:855 ,y:505 },  // Hidden waypoint
         { x:921 , y:516  }   // Playground
     ],
-    "Canteen-BasketBall Ground": [
+    "Canteen-Basketball-Ground": [
         { x:829 , y:428  },  // Canteen
-        { x:884 , y:425 }   // BasketBall Ground
+        { x:884 , y:425 }   // Basketball-Ground
     ], 
-    "Canteen-Cricket Net": [
+    "Canteen-Cricket-Net": [
         { x: 829, y:425},  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x: 855,  y: 49 },  // Hidden waypoint
         { x: 1169,  y: 43 },  // Hidden waypoint
         { x:1172 , y:111 },  // Hidden waypoint
-        { x: 1198, y:106 }   // Cricket Net
+        { x: 1198, y:106 }   // Cricket-Net
     ],
-    "Canteen-Cricket Ground": [
+    "Canteen-Cricket-Ground": [
         { x:829 , y:428 },  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x:856 ,y:645 },  // Hidden waypoint
         { x:1428 , y:644  },  // Hidden waypoint
-        { x: 1428, y:619}   // Cricket Ground
+        { x: 1428, y:619}   // Cricket-Ground
     ],
     "Canteen-Stationary": [
         { x:829 , y:428 },  //Canteen
@@ -659,27 +659,27 @@ const predefinedPaths = {
         { x: 750, y:428 },  //  Hidden waypoint
         { x: 602, y:429 },  // Temple
     ],
-    "Canteen-Bus parking": [
+    "Canteen-Bus-Parking": [
         { x:829 , y:428 },  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x:856 ,y:645 },  // Hidden waypoint
         { x: 59, y:658 },  // Hidden waypoint
-        { x: 64, y:790 }   //Bus parking
+        { x: 64, y:790 }   //Bus-Parking
     ],
-    "Canteen-Sports room": [
+    "Canteen-Sports-Room": [
         {x:829 , y:428 },  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x:856 ,y:645 },  // Hidden waypoint
         { x:1310 , y: 648},  // Hidden waypoint
-        { x: 1297, y:586}   //Sports room
+        { x: 1297, y:586}   //Sports-Room
     ],
    
-    "Canteen-Auditoruim": [
+    "Canteen-Auditorium": [
         {x:829 , y:428 },  //Canteen
         { x: 848, y:433  },  // Hidden waypoint
         { x:856 ,y:645 },  // Hidden waypoint
         { x:1186 , y:642 },  // Hidden waypoint
-        { x: 1186, y:268 }   //Auditoruim
+        { x: 1186, y:268 }   //Auditorium
     ],
 
     "Playground-B-Block": [
@@ -697,27 +697,27 @@ const predefinedPaths = {
         { x:612, y:285 } // C-Block
         
     ],
-    "Playground-Main Gate": [
+    "Playground-Main-Gate": [
         { x:1016 , y:626 },  // Playground
         { x:1016 , y:648  },  // Hidden waypoint
-        { x:148 , y: 650 }   // Main Gate
+        { x:148 , y: 650 }   // Main-Gate
     ],
     "Playground-A-Block": [
         { x: 1016, y:626  },  // Playground
         { x:1016 , y: 648},  // Hidden waypoint
         { x:576 , y:645 }  // A-Block
     ],
-    "Playground-Boys Hostel": [
+    "Playground-Boys-Hostel": [
         { x: 1021, y: 624 },  //Playground
         { x: 1021, y:650 },  // Hidden waypoint
         { x:1297 , y:650 },  // Hidden waypoint
-        { x:1297 , y:674 }   // Boys Hostel
+        { x:1297 , y:674 }   // Boys-Hostel
     ],
-    "Playground-Girls Hostel": [
+    "Playground-Girls-Hostel": [
         { x:1016, y:626 },  //Playground
         { x:1016 , y:648  },  // Hidden waypoint
         { x:291 , y:652  },  // Hidden waypoint
-        { x:289 , y:912 }  // Girls Hostel
+        { x:289 , y:912 }  // Girls-Hostel
     ],
     "Playground-Canteen": [
         { x: 921, y:516 },  //Playground
@@ -725,19 +725,19 @@ const predefinedPaths = {
         { x: 848, y:433 },  // Hidden waypoint
         { x: 829, y:425 }  // Canteen  
     ],
-    "Playground-BasketBall Ground": [
+    "Playground-Basketball-Ground": [
         { x:927 , y: 626 },  //Playground
-        { x:927 , y: 497 }   // BasketBall Ground
+        { x:927 , y: 497 }   // Basketball-Ground
     ], 
-    "Playground-Cricket Net": [
+    "Playground-Cricket-Net": [
         { x: 1135, y:102},  // Playground
-        { x: 1212, y:102 }   // Cricket Net
+        { x: 1212, y:102 }   // Cricket-Net
     ],
-    "Playground-Cricket Ground": [
+    "Playground-Cricket-Ground": [
         { x:1021 , y:624  },  //Playground
         { x:1021 , y:650 },  // Hidden waypoint
         { x: 1436, y: 645 },  // Hidden waypoint
-        { x: 1434, y:621}   // Cricket Ground
+        { x: 1434, y:621}   // Cricket-Ground
     ],
     "Playground-Stationary": [
         { x:1016 , y:626  },  // Playground
@@ -751,23 +751,23 @@ const predefinedPaths = {
         { x:748 , y:431},  // Hidden waypoint
         { x:599 , y:428}   //Temple
     ],
-    "Playground-Bus parking": [
+    "Playground-Bus-Parking": [
         { x:1016 , y:626 },  // Playground
         { x:1016 , y:648  },  // Hidden waypoint
         { x: 62, y:652 },  // Hidden waypoint
-        { x: 62, y:798 }   //Bus parking
+        { x: 62, y:798 }   //Bus-Parking
     ],
-    "Playground-Sports room": [
+    "Playground-Sports-Room": [
         { x:1021 , y:624 },  //Playground
         { x:1021 , y:650  },  // Hidden waypoint
         { x:1301 , y:648 },  // Hidden waypoint
-        { x:1301 , y:584}   //Sports room
+        { x:1301 , y:584}   //Sports-Room
     ],
-    "Playground-Auditoruim": [
+    "Playground-Auditorium": [
         { x: 1023, y:248  },  // Playground
-        { x:1165 , y:231 }   //Auditoruim
+        { x:1165 , y:231 }   //Auditorium
     ],
-    "Playground-Admission": [
+    "Playground-Admission-Office": [
         { x: 1016, y:626  },  // Playground
         { x:1016 , y: 648 },  // Hidden waypoint
         { x:290 , y:648 },  // Hidden waypoint
@@ -775,113 +775,113 @@ const predefinedPaths = {
         { x:262 , y:449 }   //Adimssion
     ],
 
-    "Girls Hostel-B-Block": [
-        { x: 294, y: 912 },  //  Girls Hostel
+    "Girls-Hostel-B-Block": [
+        { x: 294, y: 912 },  //  Girls-Hostel
         { x: 294, y: 651 },  //Hidden waypoint
         { x: 1010, y:647 },  // Hidden waypoint
         { x: 1010, y: 705}   // B-Block
     ],
-    "Girls Hostel-C-Block": [
-        { x: 294 , y: 912 },  // Girls Hostel
+    "Girls-Hostel-C-Block": [
+        { x: 294 , y: 912 },  // Girls-Hostel
         { x: 290, y: 408 },  // Hidden waypoint
         { x: 609, y: 282 } // C-Block
         
     ],
-    "Girls Hostel-Main Gate": [
-        { x: 294 , y: 912 },  // Girls Hostel
+    "Girls-Hostel-Main-Gate": [
+        { x: 294 , y: 912 },  // Girls-Hostel
         { x: 294 , y: 653  },  // Hidden waypoint
-        { x: 154 , y: 654  }   // Main Gate
+        { x: 154 , y: 654  }   // Main-Gate
     ],
-    "Girls Hostel-A-Block": [
-        { x: 294, y:912  },  //Girls Hostel
+    "Girls-Hostel-A-Block": [
+        { x: 294, y:912  },  //Girls-Hostel
         { x: 294, y:653 },  // Hidden waypoint
         { x: 580, y:648}  // A-Block
     ],
-    "Girls Hostel-Boys Hostel": [
-        { x: 294, y:912 },  //Girls Hostel
+    "Girls-Hostel-Boys-Hostel": [
+        { x: 294, y:912 },  //Girls-Hostel
         { x: 294, y:651 },  // Hidden waypoint
         { x: 1294, y:645 },  // Hidden waypoint
-        { x: 1294, y:673 }   // Boys Hostel
+        { x: 1294, y:673 }   // Boys-Hostel
     ],
-    "Girls Hostel-Canteen": [
-        { x:294, y:912 },  //Girls Hostel
+    "Girls-Hostel-Canteen": [
+        { x:294, y:912 },  //Girls-Hostel
         { x:294, y:651 },  // Hidden waypoint
         { x:853, y:644 },  // Hidden waypoint
         { x:853, y:430 },  // Hidden waypoint
         { x:831, y:431 }  // Canteen  
     ],
-    "Girls Hostel-Playground": [
-        { x: 294, y:912 },  //Girls Hostel
+    "Girls-Hostel-Playground": [
+        { x: 294, y:912 },  //Girls-Hostel
         { x: 294, y: 651 },  // Hidden waypoint
         { x: 918, y: 648 },  // Hidden waypoint
         { x: 918, y: 626 }   // Playground
     ],
-    "Girls Hostel-BasketBall Ground": [
-        { x: 294, y:912 },  //Girls Hostel
+    "Girls-Hostel-Basketball-Ground": [
+        { x: 294, y:912 },  //Girls-Hostel
         { x: 294, y: 651 },  // Hidden waypoint
         { x: 918, y: 648 },  // Hidden waypoint
         { x: 918,  y:626 },  // Hidden waypoint
-        { x: 925, y: 500 }   // BasketBall Ground
+        { x: 925, y: 500 }   // Basketball-Ground
     ], 
-    "Girls Hostel-Cricket Net": [
-        { x: 294, y: 912},  // Girls Hostel
+    "Girls-Hostel-Cricket-Net": [
+        { x: 294, y: 912},  // Girls-Hostel
         { x: 294, y: 651 },  // Hidden waypoint
         { x: 853, y: 644 },  // Hidden waypoint
         { x: 851,  y: 51 },  // Hidden waypoint
         { x: 1168, y: 48},  // Hidden waypoint
         { x: 1173, y: 104},  // Hidden waypoint
-        { x: 1195, y: 105 }   // Cricket Net
+        { x: 1195, y: 105 }   // Cricket-Net
     ],
-    "Girls Hostel-Cricket Ground": [
-        { x: 294, y: 912 },  //Girls Hostel
+    "Girls-Hostel-Cricket-Ground": [
+        { x: 294, y: 912 },  //Girls-Hostel
         { x: 294, y: 651},  // Hidden waypoint
         { x: 1426, y: 644 },  // Hidden waypoint
-        { x: 1426, y:617}   // Cricket Ground
+        { x: 1426, y:617}   // Cricket-Ground
     ],
-    "Girls Hostel-Stationary": [
-        { x: 294, y: 912 },  //Girls Hostel
+    "Girls-Hostel-Stationary": [
+        { x: 294, y: 912 },  //Girls-Hostel
         { x: 294, y: 651 },  // Hidden waypoint
         { x: 780, y: 647 },  // Hidden waypoint
         { x: 789, y: 732}   // Stationary
     ],
-    "Girls Hostel-Temple": [
-        { x: 294, y: 912  },  //Girls Hostel
+    "Girls-Hostel-Temple": [
+        { x: 294, y: 912  },  //Girls-Hostel
         { x: 296, y: 427},  // Hidden waypoint
         { x: 562, y:427}   //Temple
     ],
-   "Girls Hostel-Bus parking": [
-        { x:294, y: 912 },  // Girls Hostel
+   "Girls-Hostel-Bus-Parking": [
+        { x:294, y: 912 },  // Girls-Hostel
         { x:294, y: 653 },  // Hidden waypoint
         { x:63,  y: 651 },  // Hidden waypoint
-        { x:63, y:800 }   //Bus parking
+        { x:63, y:800 }   //Bus-Parking
     ],
-    "Girls Hostel-Sports room": [
-        { x: 294, y:912 },  //Girls Hostel
+    "Girls-Hostel-Sports-Room": [
+        { x: 294, y:912 },  //Girls-Hostel
         { x: 294, y:651 },  // Hidden waypoint
         { x: 1294, y:645 },  // Hidden waypoint
-        { x: 1294, y:584}   //Sports room
+        { x: 1294, y:584}   //Sports-Room
     ],
     
-    "Girls Hostel-Auditoruim": [
-        { x:294, y:912  },  // Girls Hostel
+    "Girls-Hostel-Auditorium": [
+        { x:294, y:912  },  // Girls-Hostel
         { x:294, y:651  },  // Hidden waypoint
         { x:1186, y:644 },  // Hidden waypoint
-        { x:1183, y:272 }   //Auditoruim
+        { x:1183, y:272 }   //Auditorium
     ],
-    "Girls Hostel-Admission": [
-        { x: 294, y: 912 },  // Girls Hostel
+    "Girls-Hostel-Admission-Office": [
+        { x: 294, y: 912 },  // Girls-Hostel
         { x: 294, y: 433 },  // Hidden waypoint
-        { x: 268, y: 437  }   //Admission
+        { x: 268, y: 437  }   //Admission-Office
     ],
 
-    "Boys Hostel-B-Block": [
-        { x: 1301, y: 667},  //  Adimission
+    "Boys-Hostel-B-Block": [
+        { x: 1301, y: 667},  //  Admission-Office
         { x: 1300, y: 647  },  // 🔴 Fake location (Hidden waypoint)
         { x: 1004, y: 648},  // Hidden waypoint
         { x: 1010, y: 707}   // B-Block
     ],
-    "Boys Hostel-C-Block": [
-        { x: 1301, y: 667},  // Boys Hostel
+    "Boys-Hostel-C-Block": [
+        { x: 1301, y: 667},  // Boys-Hostel
         { x: 1300, y:647 },  // Hidden waypoint
         { x: 575, y: 636},  // Hidden waypoint
         { x: 575, y: 456 } ,  // C-Block
@@ -892,98 +892,98 @@ const predefinedPaths = {
         { x: 605, y: 284} // C-Block
         
     ],
-    "Boys Hostel-Main Gate": [
-        { x: 1301, y: 667},  // Boys Hostel
+    "Boys-Hostel-Main-Gate": [
+        { x: 1301, y: 667},  // Boys-Hostel
         { x: 1300, y: 647 },  // Hidden waypoint
-        { x: 149, y: 654 }   // Main Gate
+        { x: 149, y: 654 }   // Main-Gate
     ],
-    "Boys Hostel-A-Block": [
-        { x: 1301, y:667  },  // Boys Hostel
+    "Boys-Hostel-A-Block": [
+        { x: 1301, y:667  },  // Boys-Hostel
         { x: 1300, y:647 },  // Hidden waypoint
         { x: 581, y:645 }  // A-Block
     ],
-    "Boys Hostel-Girls Hostel": [
-        { x: 1301, y:667  },  // Boys Hostel
+    "Boys-Hostel-Girls-Hostel": [
+        { x: 1301, y:667  },  // Boys-Hostel
         { x: 1300, y:647 },  // Hidden waypoint
         { x: 291, y:653  },  // Hidden waypoint
-        { x: 294, y:914 }  // Girls Hostel
+        { x: 294, y:914 }  // Girls-Hostel
     ],
-    "Boys Hostel-Canteen": [
-        { x:1301, y:667 },  //Boys Hostel
+    "Boys-Hostel-Canteen": [
+        { x:1301, y:667 },  //Boys-Hostel
         { x:1300, y:647 },  // Hidden waypoint
         { x:855, y:641},  // Hidden waypoint
         { x:853, y:437 },  // Hidden waypoint
         { x:837, y:434 }  // Canteen  
     ],
-    "Boys Hostel-Playground": [
-        { x: 1301, y:667 },  //Boys Hostel
+    "Boys-Hostel-Playground": [
+        { x: 1301, y:667 },  //Boys-Hostel
         { x: 1300, y:647  },  // Hidden waypoint
         { x: 1016,  y:651  },  // Hidden waypoint
         { x: 1016, y:620  }   // Playground
     ],
-    "Boys Hostel-BasketBall Ground": [
-        { x: 1301, y:667 },  //Boys Hostel
+    "Boys-Hostel-Basketball-Ground": [
+        { x: 1301, y:667 },  //Boys-Hostel
         { x: 1300, y:647  },  // Hidden waypoint
         { x: 1016,  y:651  },  // Hidden waypoint
         { x: 1016, y:620  }, // Hidden waypoint
         { x: 1022, y:471 },  // Hidden waypoint
-        { x: 995,  y:460  },   // BasketBall Ground
+        { x: 995,  y:460  },   // Basketball-Ground
     ], 
-    "Boys Hostel-Cricket Net": [
-        { x: 1301, y:667 },  //Boys Hostel
+    "Boys-Hostel-Cricket-Net": [
+        { x: 1301, y:667 },  //Boys-Hostel
         { x: 1300, y:647  },  // Hidden waypoint
         { x: 1398,  y:635  },  // Hidden waypoint
         { x: 1398,  y:114  },  // Hidden waypoint
-        { x: 1366, y:104}   // Cricket Net
+        { x: 1366, y:104}   // Cricket-Net
     ],
-    "Boys Hostel-Cricket Ground": [
-        { x: 1301, y:667  },  //Boys Hostel
+    "Boys-Hostel-Cricket-Ground": [
+        { x: 1301, y:667  },  //Boys-Hostel
         { x: 1300, y:647 },  // Hidden waypoint
         { x: 1445, y:644  },  // Hidden waypoint
-        { x: 1442, y:617}   // Cricket Ground
+        { x: 1442, y:617}   // Cricket-Ground
     ],
-    "Boys Hostel-Stationary": [
-        { x:1301 , y:667  },  // Boys Hostel
+    "Boys-Hostel-Stationary": [
+        { x:1301 , y:667  },  // Boys-Hostel
         { x:1300 , y:647 },  // Hidden waypoint
         { x: 769, y:647  },  // Hidden waypoint
         { x: 769, y:730 }   // Stationary
     ],
-    "Boys Hostel-Temple": [
-        { x: 1301, y:667  },  //Boys Hostel
+    "Boys-Hostel-Temple": [
+        { x: 1301, y:667  },  //Boys-Hostel
         { x: 1300, y:647 },  // Hidden waypoint
         { x: 575, y:636},  // Hidden waypoint
         { x: 575, y:456}   //Temple
     ],
-    "Boys Hostel-Bus parking": [
-        { x:1301 , y:667 },  // Boys Hostel
+    "Boys-Hostel-Bus-Parking": [
+        { x:1301 , y:667 },  // Boys-Hostel
         { x: 1300, y:647  },  // Hidden waypoint
         { x:64 , y:651 },  // Hidden waypoint
-        { x:63 , y:765 }   //Bus parking
+        { x:63 , y:765 }   //Bus-Parking
     ],
-    "Boys Hostel-Sports room": [
-        { x:1297 , y:664 },  //Boys Hostel
-        { x:1299 , y:582}   //Sports room
+    "Boys-Hostel-Sports-Room": [
+        { x:1297 , y:664 },  //Boys-Hostel
+        { x:1299 , y:582}   //Sports-Room
     ],
-    "Boys Hostel-Auditoruim": [
-        { x:1304 , y:667  },  // Boys Hostel
+    "Boys-Hostel-Auditorium": [
+        { x:1304 , y:667  },  // Boys-Hostel
         { x:1300, y:647  },  // Hidden waypoint
         { x:1184 , y:642 },  // Hidden waypoint
-        { x:1180 , y:269 }   //Auditoruim
+        { x:1180 , y:269 }   //Auditorium
     ],
-    "Boys Hostel-Admission": [
-        { x:1301 , y:667  },  // Boys Hostel
+    "Boys-Hostel-Admission-Office": [
+        { x:1301 , y:667  },  // Boys-Hostel
         { x:1300, y:647  },  // Hidden waypoint
         { x:291 , y:653 },  // Hidden waypoint
         { x:288 , y:445 },  // Hidden waypoint
-        { x:258 , y:443 }   //Admission
+        { x:258 , y:443 }   //Admission-Office
     ],
 
-    "BasketBall Ground-B-Block": [
-        { x:991 , y:499  },  //  BasketBall Ground
+    "Basketball-Ground-B-Block": [
+        { x:991 , y:499  },  //  Basketball-Ground
         { x:990 , y:715 }   // B-Block
     ],
-    "BasketBall Ground-C-Block": [
-        { x:883 , y:332 },  // BasketBall Ground
+    "Basketball-Ground-C-Block": [
+        { x:883 , y:332 },  // Basketball-Ground
         { x:752 , y:335 },  // Hidden waypoint
         { x:751, y:429 },  // Hidden waypoint
         { x:602 , y:429  } ,  // C-Block
@@ -993,101 +993,101 @@ const predefinedPaths = {
         { x:612 , y:288 } // C-Block
         
     ],
-    "BasketBall Ground-Main Gate": [
-        { x:929 , y:495 },  // BasketBall Ground
+    "Basketball-Ground-Main-Gate": [
+        { x:929 , y:495 },  // Basketball-Ground
         { x:929 , y:647  },  // Hidden waypoint
-        { x:148 , y:654  }   // Main Gate
+        { x:148 , y:654  }   // Main-Gate
     ],
-    "BasketBall Ground-A-Block": [
-        { x:929 , y:495 },  // BasketBall Ground
+    "Basketball-Ground-A-Block": [
+        { x:929 , y:495 },  // Basketball-Ground
         { x:929 , y:647  },  // Hidden waypoint
         { x:578 , y:645 }  // A-Block
     ],
-    "BasketBall Ground-Boys Hostel": [
-        { x:991 , y:499  },  //BasketBall Ground
+    "Basketball-Ground-Boys-Hostel": [
+        { x:991 , y:499  },  //Basketball-Ground
         { x:991 , y:642 },  // Hidden waypoint
         { x:1294, y:644 },  // Hidden waypoint
-        { x:1294 , y:676 }   // Boys Hostel
+        { x:1294 , y:676 }   // Boys-Hostel
     ],
-    "BasketBall Ground-Girls Hostel": [
-        { x:929 , y:495 },  // BasketBall Ground
+    "Basketball-Ground-Girls-Hostel": [
+        { x:929 , y:495 },  // Basketball-Ground
         { x:929 , y:647  },  // Hidden waypoint
         { x:290 , y:655  },  // Hidden waypoint
-        { x:290 , y:917 }  // Girls Hostel
+        { x:290 , y:917 }  // Girls-Hostel
     ],
-    "BasketBall Ground-Canteen": [
-        { x:887, y:399 },  //BasketBall Ground
+    "Basketball-Ground-Canteen": [
+        { x:887, y:399 },  //Basketball-Ground
         { x:830 , y:405 }  // Canteen  
     ],
-    "BasketBall Ground-Playground": [
-        { x:947 , y:500 },  //BasketBall Ground
+    "Basketball-Ground-Playground": [
+        { x:947 , y:500 },  //Basketball-Ground
         { x:947 , y:534  },  // Hidden waypoint
         { x:1025 ,  y:522 },  // Hidden waypoint
         { x:1023 , y:412 }   // Playground
     ],
-    "BasketBall Ground-Cricket Net": [
-        { x:881 , y:358},  // BasketBall Ground
+    "Basketball-Ground-Cricket-Net": [
+        { x:881 , y:358},  // Basketball-Ground
         { x:853 , y:358  },  // Hidden waypoint
         { x:855 ,  y:41  },  // Hidden waypoint
         { x:1167,  y:44  },  // Hidden waypoint
         { x:1174 , y:106 },  // Hidden waypoint
-        { x:1196 , y:105 }   // Cricket Net
+        { x:1196 , y:105 }   // Cricket-Net
     ],
-    "BasketBall Ground-Cricket Ground": [
-        { x:991 , y:499  },  //BasketBall Ground
+    "Basketball-Ground-Cricket-Ground": [
+        { x:991 , y:499  },  //Basketball-Ground
         { x:991, y:642 },  // Hidden waypoint
         { x:1439 , y:641 },  // Hidden waypoint
-        { x:1439 , y:619 }   // Cricket Ground
+        { x:1439 , y:619 }   // Cricket-Ground
     ],
-    "BasketBall Ground-Stationary": [
-        { x:878 , y:393  },  // BasketBall Ground
+    "Basketball-Ground-Stationary": [
+        { x:878 , y:393  },  // Basketball-Ground
         { x:848 , y:368},  // Hidden waypoint
         { x:848 , y:638  },  // Hidden waypoint
         { x:771 , y:641 },  // Hidden waypoint
         { x:771 , y:727 }   // Stationary
     ],
-    "BasketBall Ground-Temple": [
-        { x:883 , y:332 },  // BasketBall Ground
+    "Basketball-Ground-Temple": [
+        { x:883 , y:332 },  // Basketball-Ground
         { x:752 , y:335 },  // Hidden waypoint
         { x:751, y:429 },  // Hidden waypoint
         { x:602 , y:429  } , //Temple
     ],
-    "BasketBall Ground-Bus parking": [
-        { x:929 , y:495 },  // BasketBall Ground
+    "Basketball-Ground-Bus-Parking": [
+        { x:929 , y:495 },  // Basketball-Ground
         { x:929 , y:647  },  // Hidden waypoint
         { x:57 , y:645 },  // Hidden waypoint
-        { x:57 , y:789 }   //Bus parking
+        { x:57 , y:789 }   //Bus-Parking
     ],
-    "BasketBall Ground-Sports room": [
-        { x:991 , y:499 },  //BasketBall Ground
+    "Basketball-Ground-Sports-Room": [
+        { x:991 , y:499 },  //Basketball-Ground
         { x:991 , y:642  },  // Hidden waypoint
         { x:1294 , y:644 },  // Hidden waypoint
-        { x:1294 , y:581}   //Sports room
+        { x:1294 , y:581}   //Sports-Room
     ],
-    "BasketBall Ground-Admission": [
-        { x:883 , y:332  },  //BasketBall Ground
+    "Basketball-Ground-Admission-Office": [
+        { x:883 , y:332  },  //Basketball-Ground
         { x:752 , y:335},  // Hidden waypoint
         { x:751 , y:429 },  // Hidden waypoint
         { x:602 , y:429  },  // Hidden waypoint
         { x:602 , y:398 },  // Hidden waypoint
         { x:553 , y:393  },  // Hidden waypoint
         { x:555 , y:421 },  // Hidden waypoint
-        { x:259 , y:424 }   //Admission
+        { x:259 , y:424 }   //Admission-Office
     ],
-    "BasketBall Ground-Auditoruim": [
-        { x:993 , y:225  },  // BasketBall Ground
-        { x:1162 , y:215 }   //Auditoruim
+    "Basketball-Ground-Auditorium": [
+        { x:993 , y:225  },  // Basketball-Ground
+        { x:1162 , y:215 }   //Auditorium
     ],
 
-    "Cricket Net-B-Block": [
-        { x:1383 , y:109  },  // Cricket Net 
+    "Cricket-Net-B-Block": [
+        { x:1383 , y:109  },  // Cricket-Net 
         { x:1395 , y:109  },  // Hidden waypoint
         { x:1396 , y:633 },  // Hidden waypoint
         { x:994 , y:650 },  // Hidden waypoint
         { x:994 , y:708 }   // B-Block
     ],
-    "Cricket Net-C-Block": [
-        { x:1383 , y:109  },  // Cricket Net 
+    "Cricket-Net-C-Block": [
+        { x:1383 , y:109  },  // Cricket-Net 
         { x:1395 , y:109  },  // Hidden waypoint
         { x:1396 , y:633 },  // Hidden waypoint
         { x:578 , y:643  } ,  // Hidden waypoint
@@ -1098,104 +1098,104 @@ const predefinedPaths = {
         { x:572 , y:303 } // C-Block
         
     ],
-    "Cricket Net-Main Gate": [
-        { x:1383 , y:109 },  // Cricket Net
+    "Cricket-Net-Main-Gate": [
+        { x:1383 , y:109 },  // Cricket-Net
         { x:1396 , y:109  },  // Hidden waypoint
         { x:1396 , y:633  },  // Hidden waypoint
-        { x:153 , y:650  }   // Main Gate
+        { x:153 , y:650  }   // Main-Gate
     ],
-    "Cricket Net-A-Block": [
-        { x:1383 , y:109 },  // Cricket Net
+    "Cricket-Net-A-Block": [
+        { x:1383 , y:109 },  // Cricket-Net
         { x:1396 , y:109  },  // Hidden waypoint
         { x:1396 , y:633  }, // Hidden waypoint
         { x:575 , y:641 }  // A-Block
     ],
-    "Cricket Net-Boys Hostel": [
-        { x:1383 , y:109 },  // Cricket Net
+    "Cricket-Net-Boys-Hostel": [
+        { x:1383 , y:109 },  // Cricket-Net
         { x:1396 , y:109  },  // Hidden waypoint
         { x:1396 , y:633  }, // Hidden waypoint
         { x:1282 , y:631  }, // Hidden waypoint
-        { x:1291 , y:673 }   // Boys Hostel
+        { x:1291 , y:673 }   // Boys-Hostel
     ],
-    "Cricket Net-Girls Hostel": [
-        { x:1383 , y:109 },  // Cricket Net
+    "Cricket-Net-Girls-Hostel": [
+        { x:1383 , y:109 },  // Cricket-Net
         { x:1396 , y:109  },  // Hidden waypoint
         { x:1396 , y:633  }, // Hidden waypoint
         { x:290 , y:651 },  // Hidden waypoint
-        { x:290 , y:916 }  // Girls Hostel
+        { x:290 , y:916 }  // Girls-Hostel
     ],
-    "Cricket Net-Canteen": [
-        { x:1383 , y:109 },  // Cricket Net
+    "Cricket-Net-Canteen": [
+        { x:1383 , y:109 },  // Cricket-Net
         { x:1396 , y:109  },  // Hidden waypoint
         { x:1396 , y:633  }, // Hidden waypoint
         { x:855 , y:643  },  // Hidden waypoint
         { x:856 , y:422 },  // Hidden waypoint
         { x:832 , y:422 }  // Canteen  
     ],
-    "Cricket Net-Playground": [
-        { x:1385 , y:100 },  //Cricket Net
+    "Cricket-Net-Playground": [
+        { x:1385 , y:100 },  //Cricket-Net
         { x:1138 , y:104  }   // Playground
     ],
     
-    "Cricket Net-Cricket Ground": [
-        { x:1385 , y:100  },  //Cricket Net
-        { x:1402 , y:104 }   // Cricket Ground
+    "Cricket-Net-Cricket-Ground": [
+        { x:1385 , y:100  },  //Cricket-Net
+        { x:1402 , y:104 }   // Cricket-Ground
     ],
-    "Cricket Net-Stationary": [
-        { x:1383 , y:109  },  // Cricket Net
+    "Cricket-Net-Stationary": [
+        { x:1383 , y:109  },  // Cricket-Net
         { x:1396 , y:109 },  // Hidden waypoint
         { x:1396 , y:633  },  // Hidden waypoint
         { x:764 , y:644  },  // Hidden waypoint
         { x:746 , y:729 }   // Stationary
     ],
-    "Cricket Net-Temple": [
-        { x:1383 , y:109  },  // Cricket Net 
+    "Cricket-Net-Temple": [
+        { x:1383 , y:109  },  // Cricket-Net 
         { x:1395 , y:109  },  // Hidden waypoint
         { x:1396 , y:633 },  // Hidden waypoint
         { x:578 , y:643  } ,  // Hidden waypoint
         { x:578 , y:454 },   //Temple
     ],
-    "Cricket Net-Bus parking": [
-        { x:1383 , y:109  },  // Cricket Net 
+    "Cricket-Net-Bus-Parking": [
+        { x:1383 , y:109  },  // Cricket-Net 
         { x:1395 , y:109  },  // 🔴 Fake location (Hidden waypoint)
         { x:1396 , y:633 }, // Hidden waypoint
         { x:63 , y:644  },  // Hidden waypoint
-        { x:64 , y:800 }   //Bus parking
+        { x:64 , y:800 }   //Bus-Parking
     ],
-    "Cricket Net-Sports room": [
-        { x:1383 , y:109  },  // Cricket Net 
+    "Cricket-Net-Sports-Room": [
+        { x:1383 , y:109  },  // Cricket-Net 
         { x:1395 , y:109  },  // 🔴 Fake location (Hidden waypoint)
         { x:1396 , y:633 }, // Hidden waypoint
         { x:1282 , y:631  },  // Hidden waypoint
-        { x:1282 , y:582}   //Sports room
+        { x:1282 , y:582}   //Sports-Room
     ], 
-    "Cricket Net-Admission": [
-        { x:1383 , y:109  },  // Cricket Net 
+    "Cricket-Net-Admission-Office": [
+        { x:1383 , y:109  },  // Cricket-Net 
         { x:1395 , y:109  },  // 🔴 Fake location (Hidden waypoint)
         { x:1396 , y:633 },  // Hidden waypoint
         { x:290 , y:651  },  // Hidden waypoint
         { x:290 , y:420  },  // Hidden waypoint
-        { x:258 , y:421 }   //Admission
+        { x:258 , y:421 }   //Admission-Office
     ],
-    "Cricket Net-Auditoruim": [
-        { x:1193 , y:101  },  // Cricket Net
+    "Cricket-Net-Auditorium": [
+        { x:1193 , y:101  },  // Cricket-Net
         { x:1163 , y:106  },  // Hidden waypoint
-        { x:1166 , y:189 }   //Auditoruim
+        { x:1166 , y:189 }   //Auditorium
     ],
-    "Cricket Net-BasketBall Ground": [
-        { x:1383 , y:109  },  // Cricket Net
+    "Cricket-Net-Basketball-Ground": [
+        { x:1383 , y:109  },  // Cricket-Net
         { x:924 , y:114  },  // Hidden waypoint
-        { x:924 , y:206 }   //BasketBall Ground
+        { x:924 , y:206 }   //Basketball-Ground
     ],
 
-    "Cricket Ground-B-Block": [
-        { x:1441, y:615  },  //  Cricket Ground
+    "Cricket-Ground-B-Block": [
+        { x:1441, y:615  },  //  Cricket-Ground
         { x:1441 , y:644  },  // 🔴 Fake location (Hidden waypoint)
         { x:1012, y:646 },  // Hidden waypoint
         { x:1012 , y:708 }   // B-Block
     ],
-    "Cricket Ground-C-Block": [
-        { x:1441 , y:615 },  // Cricket Ground
+    "Cricket-Ground-C-Block": [
+        { x:1441 , y:615 },  // Cricket-Ground
         { x:1441 , y:644 },  // Hidden waypoint
         { x:575 , y:641 },  // Hidden waypoint
         { x:575 , y:456  } ,  // C-Block
@@ -1206,30 +1206,30 @@ const predefinedPaths = {
         { x:607 , y:289 } // C-Block
         
     ],
-    "Cricket Ground-Main Gate": [
-        { x:1441 , y:615 },  // Cricket Ground
+    "Cricket-Ground-Main-Gate": [
+        { x:1441 , y:615 },  // Cricket-Ground
         { x:1441 , y:644 }, // Hidden waypoint
-        { x:153 , y:653  }   // Main Gate
+        { x:153 , y:653  }   // Main-Gate
     ],
-    "Cricket Ground-A-Block": [
-        { x:1441 , y:615  },  // Cricket Ground
+    "Cricket-Ground-A-Block": [
+        { x:1441 , y:615  },  // Cricket-Ground
         { x:1441 , y:644 },  // Hidden waypoint
         { x:575 , y:641 }  // A-Block
     ],
-    "Cricket Ground-Boys Hostel": [
-        { x:1441 , y:615  },  // Cricket Ground
+    "Cricket-Ground-Boys-Hostel": [
+        { x:1441 , y:615  },  // Cricket-Ground
         { x:1441 , y:644 },  // Hidden waypoint
         { x:1285 , y:649 },  // Hidden waypoint
-        { x:1285 , y:667 }   // Boys Hostel
+        { x:1285 , y:667 }   // Boys-Hostel
     ],
-    "Cricket  Ground-Girls Hostel": [
-        { x:1441 , y:615  },  // Cricket Ground
+    "Cricket  Ground-Girls-Hostel": [
+        { x:1441 , y:615  },  // Cricket-Ground
         { x:1441 , y:644 },  // Hidden waypoint
         { x:286 , y:649  },  // Hidden waypoint
-        { x:286 , y:913 }  // Girls Hostel
+        { x:286 , y:913 }  // Girls-Hostel
     ],
     "Cricket  Ground-Canteen": [
-        { x:1441 , y:615  },  // Cricket Ground
+        { x:1441 , y:615  },  // Cricket-Ground
         { x:1441 , y:644 },  // Hidden waypoint
         { x:853 , y:644 },  // Hidden waypoint
         { x:853 , y:438 },  // Hidden waypoint
@@ -1241,52 +1241,52 @@ const predefinedPaths = {
         { x:1016 ,  y:643 },  // Hidden waypoint 
         { x:1016 , y:620 }   // Playground
     ],
-    "Cricket Ground-Cricket Net": [
+    "Cricket-Ground-Cricket-Net": [
         { x:1403 , y:103},  // Cricket  Ground
-        { x:1366 , y:106 }   // Cricket Net
+        { x:1366 , y:106 }   // Cricket-Net
     ],
-    "Cricket Ground-Stationary": [
+    "Cricket-Ground-Stationary": [
         { x:1441 , y:615},  //Cricket  Ground
         { x:1016 , y: 643 }, // Hidden waypoint
         { x:773 , y:651  },  // Hidden waypoint
         { x:773 , y:735 }   // Stationary
     ],
-    "Cricket Ground-Temple": [
-        { x:1441 , y:615 },  // Cricket Ground
+    "Cricket-Ground-Temple": [
+        { x:1441 , y:615 },  // Cricket-Ground
         { x:1441 , y:644 },  // Hidden waypoint
         { x:575 , y:641 },  // Hidden waypoint
         { x:575 , y:456  }   //Temple
     ],
-    "Cricket  Ground-Bus parking": [
+    "Cricket  Ground-Bus-Parking": [
         { x:1441 , y:615 },  // Cricket  Ground
         { x:1441 , y:644  },  // Hidden waypoint
         { x:57 , y:657 },  // Hidden waypoint
-        { x:57 , y:798 }   //Bus parking
+        { x:57 , y:798 }   //Bus-Parking
     ],
-    "Cricket  Ground-Sports room": [
+    "Cricket  Ground-Sports-Room": [
         { x:1441 , y:615 },  // Cricket  Ground
         { x:1441 , y:644  },  // Hidden waypoint
         { x:1285 , y:649 },  // Hidden waypoint
-        { x:1285 , y:587}   //Sports room
+        { x:1285 , y:587}   //Sports-Room
     ],
     "Cricket  Ground-Admisssion": [
         { x:1441 , y:615 },  // Cricket  Ground
         { x:1441 , y:644  },  // Hidden waypoint
         { x:286 , y:648 },  // Hidden waypoint
         { x:286 , y:433  },  // Hidden waypoint
-        { x:258 , y:434 }   //Admission
+        { x:258 , y:434 }   //Admission-Office
     ],
-    "Cricket  Ground-Auditoruim": [
+    "Cricket  Ground-Auditorium": [
         { x:1441 , y:615 },  // Cricket  Ground
         { x:1441 , y:644  },  // Hidden waypoint
         { x:1183 , y:647 },  // Hidden waypoint
-        { x:1184 , y:261 }   //Auditoruim
-    ],"Cricket  Ground-BasketBall Ground": [
+        { x:1184 , y:261 }   //Auditorium
+    ],"Cricket  Ground-Basketball-Ground": [
         { x:1441 , y:615},  //Cricket  Ground
         { x:1441 , y: 644 },  // Hidden waypoint
         { x:1016,  y:643  },  // Hidden waypoint
         { x:950 , y:641 },  // Hidden waypoint
-        { x:951 , y:497 }   //BasketBall Ground
+        { x:951 , y:497 }   //Basketball-Ground
     ],
 
     "Temple-B-Block": [
@@ -1305,17 +1305,17 @@ const predefinedPaths = {
         { x:613 , y:290 } // C-Block
         
     ],
-    "Temple-Main Gate": [
+    "Temple-Main-Gate": [
         { x:567 , y:425 },  // Temple
         { x:287 , y:422  },  // Hidden waypoint
         { x:287 , y:650  },  // Hidden waypoint
-        { x:149 , y:649  }   // Main Gate
+        { x:149 , y:649  }   // Main-Gate
     ],
     "Temple-A-Block": [
         { x:578 , y:448  },  // Temple
         { x:578 , y:644 }  // A-Block
     ],
-    "Temple-Boys Hostel": [
+    "Temple-Boys-Hostel": [
         { x:595 , y:427  },  //  Temple
         { x:754 , y:427 },  // Hidden waypoint
         { x:754 , y:335 },  // Hidden waypoint
@@ -1323,12 +1323,12 @@ const predefinedPaths = {
         { x:840 , y:415 },  // Hidden waypoint
         { x:856 , y:646 },  // Hidden waypoint
         { x:1295 , y:644 },  // Hidden waypoint
-        { x:1295 , y:670 }   // Boys Hostel
+        { x:1295 , y:670 }   // Boys-Hostel
     ],
-    "Temple-Girls Hostel": [
+    "Temple-Girls-Hostel": [
         { x:567 , y:425 },  //Temple
         { x:287 , y:425  },  // Hidden waypoint
-        { x:287 , y:918 }  // Girls Hostel
+        { x:287 , y:918 }  // Girls-Hostel
     ],
     "Temple-Canteen": [
         { x:595 , y:427 },  //Temple
@@ -1348,7 +1348,7 @@ const predefinedPaths = {
         { x:1012 , y:620 },  // Hidden waypoint
         { x:1012 , y:614 },  // Playground
     ],
-    "Temple-Cricket Net": [
+    "Temple-Cricket-Net": [
         { x:595 , y:427  },  //  Temple
         { x:754 , y:427 },  // Hidden waypoint
         { x:754 , y:335 },  // Hidden waypoint
@@ -1357,9 +1357,9 @@ const predefinedPaths = {
         { x:853 ,  y:47  },  // Hidden waypoint
         { x:1160 ,  y:37  },  // Hidden waypoint
         { x:1160 , y:103 },  // Hidden waypoint
-        { x:1190 , y:103 }   // Cricket Net
+        { x:1190 , y:103 }   // Cricket-Net
     ],
-    "Temple-Cricket Ground": [
+    "Temple-Cricket-Ground": [
         { x:595 , y:427  },  //  Temple
         { x:754 , y:427 },  // Hidden waypoint
         { x:754 , y:335 },  // Hidden waypoint
@@ -1367,7 +1367,7 @@ const predefinedPaths = {
         { x:840 , y:415 }, // Hidden waypoint
         { x:853 ,  y:47  },  // Hidden waypoint
         { x:1433 , y:39  },  // Hidden waypoint
-        { x:1433 , y:74}   // Cricket Ground
+        { x:1433 , y:74}   // Cricket-Ground
     ],
     "Temple-Stationary": [
         { x:595 , y:427  },  //  Temple
@@ -1380,14 +1380,14 @@ const predefinedPaths = {
         { x:784 , y:723 }   // Stationary
     ],
     
-    "Temple-Bus parking": [
+    "Temple-Bus-Parking": [
         { x:567 , y:425 },  // Temple
         { x:287 , y:425  },  // Hidden waypoint
         { x:287 , y:650 },  // Hidden waypoint
         { x:63 , y:651  },  // Hidden waypoint
-        { x:63 , y:800 }   //Bus parking
+        { x:63 , y:800 }   //Bus-Parking
     ],
-    "Temple-Sports room": [
+    "Temple-Sports-Room": [
         { x:595 , y:427  },  //  Temple
         { x:754 , y:427 },  // Hidden waypoint
         { x:754 , y:335 },  // Hidden waypoint
@@ -1395,13 +1395,13 @@ const predefinedPaths = {
         { x:840 , y:415 },  // Hidden waypoint
         { x:856 , y:646 }, // Hidden waypoint
         { x:1285 , y:645 },  // Hidden waypoint
-        { x:1285 , y:582 }   //Sports room
+        { x:1285 , y:582 }   //Sports-Room
     ],
-    "Temple-Admission": [
+    "Temple-Admission-Office": [
         { x:567 , y:425  },  //Temple
-        { x:269 , y:425 }   //Admission
+        { x:269 , y:425 }   //Admission-Office
     ],
-    "Temple-Auditoruim": [
+    "Temple-Auditorium": [
         { x:595 , y:427  },  //  Temple
         { x:754 , y:427 },  // Hidden waypoint
         { x:754 , y:335 },  // Hidden waypoint
@@ -1409,24 +1409,24 @@ const predefinedPaths = {
         { x:840 , y:415 },  // Hidden waypoint
         { x:856 , y:646 },  // Hidden waypoint
         { x:1186 , y:646 },  // Hidden waypoint
-        { x:1186 , y:273 }   //Auditoruim
+        { x:1186 , y:273 }   //Auditorium
     ],
-    "Temple-BasketBall Ground": [
+    "Temple-Basketball-Ground": [
         { x:595 , y:427 },  //Temple
         { x:754 , y:427 },  // Hidden waypoint
         { x:754 , y:335 },  // Hidden waypoint
         { x:837 , y:335 },  // Hidden waypoint
-        { x:883 , y:329 }  // BasketBall Ground
+        { x:883 , y:329 }  // Basketball-Ground
     ]
 
-    "Bus parking-B-Block": [
-        { x:63 , y:799  },  //  Bus parking
+    "Bus-Parking-B-Block": [
+        { x:63 , y:799  },  //  Bus-Parking
         { x:63 , y:653  },  // Hidden waypoint
         { x:1012, y:646 },  // Hidden waypoint
         { x:1009, y:709 }   // B-Block
     ],
-    "Bus parking-C-Block": [
-        { x:63 , y:799 },  // Bus parking
+    "Bus-Parking-C-Block": [
+        { x:63 , y:799 },  // Bus-Parking
         { x:63 , y:653 },  // Hidden waypoint
         { x:293, y:650 },  // Hidden waypoint
         { x:293, y:421 },  // Hidden waypoint
@@ -1434,62 +1434,62 @@ const predefinedPaths = {
         { x:603 , y:287 } // C-Block
         
     ],
-    "Bus parking-Main Gate": [
-        { x:63 , y:799 },  // Bus parking
+    "Bus-Parking-Main-Gate": [
+        { x:63 , y:799 },  // Bus-Parking
         { x:63 , y:653  },  // Hidden waypoint
-        { x:147 , y:650  }   // Main Gate
+        { x:147 , y:650  }   // Main-Gate
     ],
-    "Bus parking-A-Block": [
-        { x:63 , y: 799 },  // Bus parking
+    "Bus-Parking-A-Block": [
+        { x:63 , y: 799 },  // Bus-Parking
         { x: 63, y: 653},  // Hidden waypoint
         { x: 578, y:646 }  // A-Block
     ],
-    "Bus parking-Boys Hostel": [
-        { x: 63, y:799  },  //Bus parking
+    "Bus-Parking-Boys-Hostel": [
+        { x: 63, y:799  },  //Bus-Parking
         { x: 63, y:653},  // Hidden waypoint
         { x: 1307 , y:649 },  // Hidden waypoint
-        { x: 1309 , y:6701 }   // Boys Hostel
+        { x: 1309 , y:6701 }   // Boys-Hostel
     ],
-    "Bus parking-Girls Hostel": [
-        { x: 63, y:799  },  //Bus parking
+    "Bus-Parking-Girls-Hostel": [
+        { x: 63, y:799  },  //Bus-Parking
         { x: 63, y:653},  // Hidden waypoint
         { x: 293, y:650  },  // Hidden waypoint
-        { x: 293, y:915 }  // Girls Hostel
+        { x: 293, y:915 }  // Girls-Hostel
     ],
-    "Bus parking-Canteen": [
-        { x: 63, y:799  },  //Bus parking
+    "Bus-Parking-Canteen": [
+        { x: 63, y:799  },  //Bus-Parking
         { x: 63, y:653},  // Hidden waypoint
         { x: 855, y:649},  // Hidden waypoint
         { x: 855 , y:428 },  // Hidden waypoint
         { x: 832, y:421 }  // Canteen  
     ],
-    "Bus parking-Playground": [
-        { x: 63, y:799  },  //Bus parking
+    "Bus-Parking-Playground": [
+        { x: 63, y:799  },  //Bus-Parking
         { x: 63, y:653},  // Hidden waypoint
         { x:1012 ,  y:646  },  // Hidden waypoint
         { x:1012 , y:624  }   // Playground
     ],
-    "Bus parking-Cricket Net": [
-        { x: 63, y:799  },  //Bus parking
+    "Bus-Parking-Cricket-Net": [
+        { x: 63, y:799  },  //Bus-Parking
         { x: 63, y:653},  // Hidden waypoint
         { x: 1396,  y:645  },  // Hidden waypoint
         { x: 1396,  y:102  },  // Hidden waypoint
-        { x: 1365, y:103 }   // Cricket Net
+        { x: 1365, y:103 }   // Cricket-Net
     ],
-    "Bus parking-Cricket Ground": [
-        { x: 63, y:799  },  //Bus parking
+    "Bus-Parking-Cricket-Ground": [
+        { x: 63, y:799  },  //Bus-Parking
         { x: 63, y:653},  // Hidden waypoint
         { x: 1436, y:641  },  // Hidden waypoint
-        { x: 1436, y:614}   // Cricket Ground
+        { x: 1436, y:614}   // Cricket-Ground
     ],
-    "Bus parking-Stationary": [
-        { x: 63, y:799  },  //Bus parking
+    "Bus-Parking-Stationary": [
+        { x: 63, y:799  },  //Bus-Parking
         { x: 63, y:653},  // Hidden waypoint
         { x:777 , y:645  },  // Hidden waypoint
         { x: 777, y:724 }   // Stationary
     ],
-    "Bus parking-Temple": [
-        { x:63 , y:799 },  // Bus parking
+    "Bus-Parking-Temple": [
+        { x:63 , y:799 },  // Bus-Parking
         { x:63 , y:653 },  // Hidden waypoint
         { x:293, y:650 },  // Hidden waypoint
         { x:293, y:6421 },  // Hidden waypoint
@@ -1498,30 +1498,30 @@ const predefinedPaths = {
         { x:289, y:427},  // Hidden waypoint
         { x:558 , y:428}   //Temple
     ],
-    "Bus parking-Sports room": [
-        { x:63 , y:799 },  // Bus parking
+    "Bus-Parking-Sports-Room": [
+        { x:63 , y:799 },  // Bus-Parking
         { x:63 , y:653 },  // Hidden waypoint
         { x:1291, y:646 },  // Hidden waypoint
-        { x:1291 , y:585}   //Sports room
+        { x:1291 , y:585}   //Sports-Room
     ],
-    "Bus parking-Admission": [
-        { x:63 , y:799 },  // Bus parking
+    "Bus-Parking-Admission-Office": [
+        { x:63 , y:799 },  // Bus-Parking
         { x:63 , y:653 },  // Hidden waypoint
         { x:293, y:650 },  // Hidden waypoint
         { x:293, y:421 },  // Hidden waypoint
-        { x:259 , y:419  }   //Admission
+        { x:259 , y:419  }   //Admission-Office
     ],
-    "Bus parking-Auditoruim": [
-        { x:63 , y:799 },  // Bus parking
+    "Bus-Parking-Auditorium": [
+        { x:63 , y:799 },  // Bus-Parking
         { x:63 , y:653 },  // Hidden waypoint
         { x:1185, y:649 },  // Hidden waypoint
-        { x:1185 , y:261 }   //Auditoruim
+        { x:1185 , y:261 }   //Auditorium
     ],
-    "Bus parking-BasketBall Ground": [
-        { x:63 , y:799 },  // Bus parking
+    "Bus-Parking-Basketball-Ground": [
+        { x:63 , y:799 },  // Bus-Parking
         { x:63 , y:653 },  // Hidden waypoint
         { x:959, y:644 },  // Hidden waypoint
-        { x:959 , y:497 }   //BasketBall Ground
+        { x:959 , y:497 }   //Basketball-Ground
     ],
 
     "Stationary-B-Block": [
@@ -1542,27 +1542,27 @@ const predefinedPaths = {
         { x:606 , y:284 } // C-Block
         
     ],
-    "Stationary-Main Gate": [
+    "Stationary-Main-Gate": [
         { x:779 , y: 733 },  //  Stationary
         { x:779 , y: 649 },  // Hidden waypoint
-        { x:149, y:655  }   // Main Gate
+        { x:149, y:655  }   // Main-Gate
     ],
     "Stationary-A-Block": [
         { x:779 , y: 733 },  //  Stationary
         { x:779 , y: 649 },  // Hidden waypoint
         { x:583 , y:646 }  // A-Block 
     ],
-    "Stationary-Boys Hostel": [
+    "Stationary-Boys-Hostel": [
         { x:779 , y: 733 },  //  Stationary
         { x:779 , y: 649 },  // Hidden waypoint
         { x:1296 , y:646},  // Hidden waypoint
-        { x:1296 , y:674 }   // Boys Hostel
+        { x:1296 , y:674 }   // Boys-Hostel
     ],
-    "Stationary-Girls Hostel": [
+    "Stationary-Girls-Hostel": [
         { x: 779, y:733  },  // Stationary
         { x: 779, y:649  },  // Hidden waypoint
         { x: 288, y: 650 },  // Hidden waypoint
-        { x: 288, y:905 }  // Girls Hostel
+        { x: 288, y:905 }  // Girls-Hostel
     ],
     "Stationary-Canteen": [
         { x: 779, y:733  },  // Stationary
@@ -1578,20 +1578,20 @@ const predefinedPaths = {
         { x: 1011, y:650 },  // Hidden waypoint
         { x:1011 , y:625 }   // Playground
     ],
-    "Stationary-Cricket Net": [
+    "Stationary-Cricket-Net": [
         { x: 779, y:733  },  // Stationary
         { x: 779, y:649  },  // Hidden waypoint
         { x: 853,  y:635  },  // Hidden waypoint
         { x: 853,  y:43 },  // Hidden waypoint
         { x:1171 , y:44 },  // Hidden waypoint
         { x:1171 , y:106 },  // Hidden waypoint
-        { x:1194, y: 109}   // Cricket Net
+        { x:1194, y: 109}   // Cricket-Net
     ],
-    "Stationary-Cricket Ground": [
+    "Stationary-Cricket-Ground": [
         { x: 779, y:733  },  // Stationary
         { x: 779, y:649  },  // Hidden waypoint
         { x: 1435, y:640  },  // Hidden waypoint
-        { x: 1435, y:613}   // Cricket Ground
+        { x: 1435, y:613}   // Cricket-Ground
     ],
     
     "Stationary-Temple": [
@@ -1600,47 +1600,47 @@ const predefinedPaths = {
         { x: 583, y:646},  // Hidden waypoint
         { x: 583, y:448}   //Temple
     ],
-    "Stationary-Bus parking": [
+    "Stationary-Bus-Parking": [
         { x: 779, y:733  },  // Stationary
         { x: 779, y:649  },  // Hidden waypoint
         { x: 60 , y:649},  // Hidden waypoint
-        { x: 60, y:792 }   //Bus parking
+        { x: 60, y:792 }   //Bus-Parking
     ],
-    "Stationary-Sports room": [
+    "Stationary-Sports-Room": [
         { x:779 , y: 733 },  //  Stationary
         { x:779 , y: 649 },  // Hidden waypoint
         { x:1296 , y:646},  // Hidden waypoint
-        { x:1296 , y:562}   //Sports room
+        { x:1296 , y:562}   //Sports-Room
     ],
-    "Stationary-Admission": [
+    "Stationary-Admission-Office": [
        { x: 779, y:733  },  // Stationary
         { x: 779, y:649  },  // Hidden waypoint
         { x:288 , y: 650},  // Hidden waypoint
         { x: 288, y:432 },  // Hidden waypoint
-        { x: 259, y:432 }   //Bus parking
+        { x: 259, y:432 }   //Bus-Parking
     ],
-    "Stationary-Auditoruim": [
+    "Stationary-Auditorium": [
         { x: 779, y:733  },  // Stationary
         { x: 779, y:649  },  // Hidden waypoint
         { x: 1188, y:643 },  // Hidden waypoint
-        { x: 1188, y:269 }   //Auditoruim
+        { x: 1188, y:269 }   //Auditorium
     ],
-    "Stationary-BasketBall Ground": [
+    "Stationary-Basketball-Ground": [
         { x: 779, y:733  },  // Stationary
         { x: 779, y:649  },  // Hidden waypoint
         { x: 855, y:641 },  // Hidden waypoint
         { x: 855, y:430 },  // Hidden waypoint
-        { x: 827, y:421 }  //BasketBall Ground
+        { x: 827, y:421 }  //Basketball-Ground
     ]
 
-    "Sports room-B-Block": [
-        { x:1301 , y:582  },  //  Sports room
+    "Sports-Room-B-Block": [
+        { x:1301 , y:582  },  //  Sports-Room
         { x:1301, y:644 },  // Hidden waypoint
         { x:1014, y:646 },  // Hidden waypoint
         { x:1014 , y:709 }   // B-Block
     ],
-    "Sports room-C-Block": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-C-Block": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:579 , y:638 },  // Hidden waypoint
         { x: 579, y:454  } ,  // Hidden waypoint
@@ -1651,99 +1651,99 @@ const predefinedPaths = {
         { x:610, y:284 } // C-Block
         
     ],
-    "Sports room-Main Gate": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Main-Gate": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
-        { x: 150, y:655  }   // Main Gate
+        { x: 150, y:655  }   // Main-Gate
     ],
-    "Sports room-A-Block": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-A-Block": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:579, y:638 }  // A-Block
     ],
-    "Sports room-Boys Hostel": [
-        { x:1301 , y:582  },  //  Sports room
-        { x:1301 , y:673 }   // Boys Hostel
+    "Sports-Room-Boys-Hostel": [
+        { x:1301 , y:582  },  //  Sports-Room
+        { x:1301 , y:673 }   // Boys-Hostel
     ],  
 
-    "Sports room-Girls Hostel": [
-        { x:1301, y:582 },  // Sports room
+    "Sports-Room-Girls-Hostel": [
+        { x:1301, y:582 },  // Sports-Room
         { x:1301, y:644 },  // Hidden waypoint
         { x:294, y:652  },  // Hidden waypoint
-        { x:294, y:910 }  // Girls Hostel
+        { x:294, y:910 }  // Girls-Hostel
     ],
-    "Sports room-Canteen": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Canteen": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:852, y:644 },  // Hidden waypoint
         { x:849 , y:426 },  // Hidden waypoint
         { x:827 , y: 424}  // Canteen  
     ],
-    "Sports room-Playground": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Playground": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:1014 , y:644  },  // Hidden waypoint
         { x:1014, y:625 }   // Playground
     ],
-    "Sports room-Cricket Net": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Cricket-Net": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:1396 ,  y:641 },  // Hidden waypoint
         { x:1396 ,  y:107  },  // Hidden waypoint
-        { x:1363 , y:100 }   // Cricket Net
+        { x:1363 , y:100 }   // Cricket-Net
     ],
-    "Sports room-Cricket Ground": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Cricket-Ground": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:1443, y:644  },  // Hidden waypoint
-        { x:1441 , y:617}   // Cricket Ground
+        { x:1441 , y:617}   // Cricket-Ground
     ],
-    "Sports room-Stationary": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Stationary": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x: 779, y:643  },  // Hidden waypoint
         { x: 781, y:726 }   // Stationary
     ],
-    "Sports room-Temple": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Temple": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:579 , y:454}   //Temple
     ],
-    "Sports room-Bus parking": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Bus-Parking": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:57 , y:650 },  // Hidden waypoint
-        { x:61 , y:790 }   //Bus parking
+        { x:61 , y:790 }   //Bus-Parking
     ],
     
-    "Sports room-Admission": [
-        { x:1301 , y:582 },  // Sports room
+    "Sports-Room-Admission-Office": [
+        { x:1301 , y:582 },  // Sports-Room
         { x:1301 , y:644 },  // Hidden waypoint
         { x:294 , y:652 },  // Hidden waypoint
         { x:294 , y:430 },  // Hidden waypoint
-        { x:256, y:429 }   //Bus parking
+        { x:256, y:429 }   //Bus-Parking
     ],
-    "Sports room-Auditoruim": [
-        { x:1301 , y:582  },  // Sports room
+    "Sports-Room-Auditorium": [
+        { x:1301 , y:582  },  // Sports-Room
         { x:1301 , y:644  },  // Hidden waypoint
         { x:1186 , y:644},  // Hidden waypoint
-        { x:1186 , y:276 }   //Auditoruim
+        { x:1186 , y:276 }   //Auditorium
     ],
-    "Sports room-BasketBall Ground": [
-        { x:1301 , y:582  },  // Sports room
+    "Sports-Room-Basketball-Ground": [
+        { x:1301 , y:582  },  // Sports-Room
         { x:1301 , y:644  },  // Hidden waypoint
         { x:57 , y:650},  // Hidden waypoint
-        { x:61 , y:790 }   //BasketBall Ground
+        { x:61 , y:790 }   //Basketball-Ground
     ],
 
-    "Auditoruim-B-Block": [
-        { x:1186 , y:265  },  // Auditoruim
+    "Auditorium-B-Block": [
+        { x:1186 , y:265  },  // Auditorium
         { x:1189 , y:636  },  // 🔴 Fake location (Hidden waypoint)
         { x:1013 , y:651 },  // Hidden waypoint
         { x:1009 , y:705 }   // B-Block
     ],
-    "Auditoruim-C-Block": [
-        { x:1186 , y:265 },  // Auditoruim
+    "Auditorium-C-Block": [
+        { x:1186 , y:265 },  // Auditorium
         { x:1189 , y:636 },  // Hidden waypoint
         { x:577 , y:636 },  // Hidden waypoint
         { x:577 , y:456  } ,  // C-Block
@@ -1754,79 +1754,79 @@ const predefinedPaths = {
         { x:610 , y:291 } // C-Block
         
     ],
-    "Auditoruim-Main Gate": [
-        { x:1186, y:265 },  // Auditoruim
+    "Auditorium-Main-Gate": [
+        { x:1186, y:265 },  // Auditorium
         { x:1189 , y:636  },  // Hidden waypoint
-        { x:146 , y:654  }   // Main Gate
+        { x:146 , y:654  }   // Main-Gate
     ],
-    "Auditoruim-A-Block": [
-        { x:1186 , y:265  },  // Auditoruim
+    "Auditorium-A-Block": [
+        { x:1186 , y:265  },  // Auditorium
         { x:1189 , y:636 },  // Hidden waypoint
         { x:581 , y:642 }  // A-Block
     ],
-    "Auditoruim-Boys Hostel": [
-        { x:1186 , y:265  },  // Auditoruim
+    "Auditorium-Boys-Hostel": [
+        { x:1186 , y:265  },  // Auditorium
         { x:1189 , y:636 },  // Hidden waypoint
         { x:1296 , y:648 },  // Hidden waypoint
-        { x:1296 , y:678 }   // Boys Hostel
+        { x:1296 , y:678 }   // Boys-Hostel
     ],
-    "Auditoruim-Girls Hostel": [
-        { x:1186 , y:265 },  //Auditoruim
+    "Auditorium-Girls-Hostel": [
+        { x:1186 , y:265 },  //Auditorium
         { x:1189 , y:636  },  // Hidden waypoint
         { x:288 , y:653  },  // Hidden waypoint
-        { x:293 , y:912 }  // Girls Hostel
+        { x:293 , y:912 }  // Girls-Hostel
     ],
-    "Auditoruim-Canteen": [
-        { x:1186 , y:265 },  //Auditoruim
+    "Auditorium-Canteen": [
+        { x:1186 , y:265 },  //Auditorium
         { x:1189 , y:636 },  // Hidden waypoint
         { x:852 , y:647 },  // Hidden waypoint
         { x:848 , y:430 },  // Hidden waypoint
         { x:834 , y:433 }  // Canteen  
     ],
-    "Auditoruim-Playground": [
-        { x:1167 , y:221},  //Auditoruim
+    "Auditorium-Playground": [
+        { x:1167 , y:221},  //Auditorium
         { x:1050 , y:240  }   // Playground
     ],
-    "Auditoruim-Cricket Net": [
-        { x:1167 , y:221},  // Auditoruim
+    "Auditorium-Cricket-Net": [
+        { x:1167 , y:221},  // Auditorium
         { x:1120 , y:218  },  // Hidden waypoint
-        { x:1195 , y:128 }   // Cricket Net
+        { x:1195 , y:128 }   // Cricket-Net
     ],
-    "Auditoruim-Cricket Ground": [
-        { x:1186 , y:265  },  //Auditoruim
+    "Auditorium-Cricket-Ground": [
+        { x:1186 , y:265  },  //Auditorium
         { x:1189 , y:636 },  // Hidden waypoint
         { x:1439 , y:645 },  // Hidden waypoint
-        { x:1446 , y:617}   // Cricket Ground
+        { x:1446 , y:617}   // Cricket-Ground
     ],
-    "Auditoruim-Stationary": [
-        { x:1186 , y:265  },  // Auditoruim
+    "Auditorium-Stationary": [
+        { x:1186 , y:265  },  // Auditorium
         { x:1189 , y:636 },  // Hidden waypoint
         { x:774 , y:651 },  // Hidden waypoint
         { x:783 , y:732 }   // Stationary
     ],
-    "Auditoruim-Temple": [
-        { x:1186 , y:265  },  //Auditoruim
+    "Auditorium-Temple": [
+        { x:1186 , y:265  },  //Auditorium
         { x:1189 , y:636 },  // Hidden waypoint
         { x:578 , y:644},  // Hidden waypoint
         { x:577 , y:453}   //Temple
     ],
-    "Auditoruim-Admission": [
-        { x:1186 , y:265 },  //Auditoruim
+    "Auditorium-Admission-Office": [
+        { x:1186 , y:265 },  //Auditorium
         { x:1189 , y:636  },  // Hidden waypoint
         { x:288 , y:653 },  // Hidden waypoint
-        { x:256 , y:459 }   //Admission
+        { x:256 , y:459 }   //Admission-Office
     ],
-    "Auditoruim-Sports room": [
-        { x:1186 , y:265 },  //Auditoruim
+    "Auditorium-Sports-Room": [
+        { x:1186 , y:265 },  //Auditorium
         { x:1189 , y:636  },  // Hidden waypoint
         { x:1304 , y:635 },  // Hidden waypoint
-        { x:1304 , y:518}   //Sports room
+        { x:1304 , y:518}   //Sports-Room
     ],
-    "Auditoruim-Bus parking": [
-        { x:1186 , y:265  },  //Auditoruim
+    "Auditorium-Bus-Parking": [
+        { x:1186 , y:265  },  //Auditorium
         { x:1189 , y:636 },  // Hidden waypoint
         { x:62 , y:648 },  // Hidden waypoint
-        { x:63 , y:796 }   //Bus parking
+        { x:63 , y:796 }   //Bus-Parking
     ],
 };
 
