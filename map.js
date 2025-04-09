@@ -1417,7 +1417,7 @@ const predefinedPaths = {
         { x:754 , y:335 },  // Hidden waypoint
         { x:837 , y:335 },  // Hidden waypoint
         { x:883 , y:329 }  // Basketball-Ground
-    ]
+    ],
 
     "Bus-Parking-B-Block": [
         { x:63 , y:799  },  //  Bus-Parking
@@ -1631,7 +1631,7 @@ const predefinedPaths = {
         { x: 855, y:641 },  // Hidden waypoint
         { x: 855, y:430 },  // Hidden waypoint
         { x: 827, y:421 }  //Basketball-Ground
-    ]
+    ],
 
     "Sports-Room-B-Block": [
         { x:1301 , y:582  },  //  Sports-Room
